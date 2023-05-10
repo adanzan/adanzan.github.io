@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import workData from "./workData.json"
+
+
+const props = workData;
+
+// console.log("Props is:", props);
+// console.log("work Data is: ", workData)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App {...props}/>
   </React.StrictMode>
 );
 

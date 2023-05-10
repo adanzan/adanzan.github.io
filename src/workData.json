@@ -1,0 +1,38 @@
+[
+    {
+        "orgName": "Agula Insurance",
+        "location": "Ulaanbaatar, Mongolia",
+        "positions": [
+            {
+                "positionName": "Junior Software Engineer",
+                "dateRange": ["03/2021 - 07/2021"],
+                "startDate": "03/2021",
+                "endDate": "07/2021",
+                "description": "Promoted to Junior Software Engineer"
+            },
+            {
+                "positionName": "Software Engineer Intern",
+                "dateRange": ["11/2020 - 03/2021"],
+                "startDate": "11/2020",
+                "endDate": "03/2021",
+                "description": "Took a semester off college during the pandemic to intern and work at Agula Insurance"
+            }
+        ]
+    },
+    {
+        "orgName": "Middlebury College",
+        "location": "VT, USA",
+        "positions": [
+            {
+                "positionName": "Curriculum Development Assistant",
+                "dateRange": ["08/2022 - 09/2022"],
+                "description": "Developed teaching materials for an introduction to Python, HTML and NetLogo for a professor at Middlebury College."
+            },
+            {
+                "positionName": "Computer Science Tutor",
+                "dateRange": ["02/2022 - 05/2022", "02/2023"],
+                "description": "Tutored an elective computer science course to a class of college students"
+            }
+        ]
+    }
+]
