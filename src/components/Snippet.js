@@ -2,7 +2,8 @@
  * Used to display a work object
 */
 
-// TODO: Need custom CSS for Snippet
+import styles from "../styles/snippet.modules.css"
+
 // TODO: Write tests for Snippet.js, 
 
 export default function Snippet({orgName, location, positions}) {
@@ -27,7 +28,7 @@ export default function Snippet({orgName, location, positions}) {
 
     return (
         <div>
-            <h2>{orgName}</h2>
+            <h2 class="styles.orgName">{orgName}</h2>
             <h3>{location}</h3>
             {positionElement}
         </div>
