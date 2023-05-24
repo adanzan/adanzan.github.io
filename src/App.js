@@ -17,6 +17,7 @@ function App(workData) {
   // Creates a Snippet component for all workData entries
   for (let index in workData) {
     let work = workData[index];
+    // TODO: Add for new fields
     snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} positions={work.positions}/>);
   }
 
