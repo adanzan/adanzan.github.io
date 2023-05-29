@@ -2,7 +2,7 @@
 This react based website hosts information about me and my journey. 
 > This is a work-in-progress  
 
-## Technologies
+## Technologies Used
 - Javascript
 - React
 - CSS  
