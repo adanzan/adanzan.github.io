@@ -1,19 +1,14 @@
 // import logo from './logo.svg';
-import './App.css';
-
-import Snippet from './components/Snippet';
-
 import * as React from 'react'
 
-import { AppBar, Toolbar, Button } from '@mui/material';
+import './App.css';
+import Snippet from './components/Snippet';
+import Header from './components/Header';
 
-
-// TODO: Header
 // TODO: Footer
 // TODO: Add Logo, take inspiration from other personal websites
 // TODO: Complete Snippet with json file
   // TODO: CSS
-  // TODO: Finish JSON file
 
 function App(workData) {
   // List of all journey snippets
@@ -28,12 +23,7 @@ function App(workData) {
 
   return (
     <div className="App">
-      <AppBar>
-        <Toolbar>
-          <Button variant="contained">Hello World</Button>
-        </Toolbar>
-      </AppBar>
-
+      <Header/>
       <h1>Hello, I am Anthony</h1>
 
       {snippets}
