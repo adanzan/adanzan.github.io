@@ -3,5 +3,14 @@
     /* Left is text saying hello
     /* Right is picture of me 
     */
-    
+    background-color: brown;
+    display: flex;
+    height: 100%
+}
+.textSection {
+    font-size: 40px;
+    flex: 3;
+}
+.imageSection {
+    flex: 7;
 }

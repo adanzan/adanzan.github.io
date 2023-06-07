@@ -2,8 +2,9 @@
 import * as React from 'react'
 
 import './App.css';
-import Snippet from './components/Snippet';
 import Header from './components/Header';
+import Hero from './components/Hero';
+import Snippet from './components/Snippet';
 
 // TODO: Footer
 // TODO: Add Logo, take inspiration from other personal websites
@@ -24,7 +25,7 @@ function App(workData) {
   return (
     <div className="App">
       <Header/>
-      <h1>Hello, I am Anthony</h1>
+      <Hero/>
 
       {snippets}
     </div>

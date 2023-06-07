@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import workData from "./workData.json"
+import workData from "./resources/workData.json"
 
 
 const props = workData;
