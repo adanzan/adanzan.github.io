@@ -3,6 +3,11 @@ import './App.css';
 
 import Snippet from './components/Snippet';
 
+import * as React from 'react'
+
+import { AppBar, Toolbar, Button } from '@mui/material';
+
+
 // TODO: Header
 // TODO: Footer
 // TODO: Add Logo, take inspiration from other personal websites
@@ -23,7 +28,14 @@ function App(workData) {
 
   return (
     <div className="App">
+      <AppBar>
+        <Toolbar>
+          <Button variant="contained">Hello World</Button>
+        </Toolbar>
+      </AppBar>
+
       <h1>Hello, I am Anthony</h1>
+
       {snippets}
     </div>
   );

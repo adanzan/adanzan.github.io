@@ -2,7 +2,9 @@
  * Used to display a work object
 */
 
-import styles from "../styles/snippet.modules.css"
+import * as React from 'react'
+
+import styles from "../styles/Snippet.module.css"
 
 // TODO: Write tests for Snippet.js, 
 
@@ -27,8 +29,8 @@ export default function Snippet({orgName, location, positions}) {
     });
 
     return (
-        <div>
-            <h2 class="styles.orgName">{orgName}</h2>
+        <div className={styles.Snippet}>
+            <h2 className={styles.orgName}>{orgName}</h2>
             <h3>{location}</h3>
             {positionElement}
         </div>
