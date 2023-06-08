@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "author": "Anthony (Danzan) Achit-Erdene",
-  "git": "https://github.com/adanzan/intro_website",
+  "git": "https://github.com/adanzan/adanzan.github.io",
+  "homepage" : "https://adanzan.github.io/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
