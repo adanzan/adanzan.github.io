@@ -2,6 +2,7 @@
 import * as React from 'react'
 
 import './App.css';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Snippet from './components/Snippet';
@@ -16,6 +17,7 @@ function App(workData) {
   let snippets = [];
   
   // Creates a Snippet component for all workData entries
+  // TODO: Evaluate json.parse() method
   for (let index in workData) {
     let work = workData[index];
     // TODO: Add for new fields
@@ -28,6 +30,7 @@ function App(workData) {
       <Hero/>
 
       {snippets}
+      <Contact/>
     </div>
   );
 }

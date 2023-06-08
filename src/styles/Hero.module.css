@@ -1,7 +1,7 @@
 .Hero {
     /* 2 boxes side by side
     /* Left is text saying hello
-    /* Right is picture of me 
+    /* Right is picture
     */
     background-color: brown;
     display: flex;
