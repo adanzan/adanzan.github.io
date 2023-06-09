@@ -1,7 +1,13 @@
 .Snippet {
-    /* TODO: Add for the journey component, not for individual snippet components */
+    /* TODO: Add these tags for the journey component, not for individual snippet components */
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.positionElement {
+    color: red;
+}
+.positionDescription {
+    color: blue;
 }

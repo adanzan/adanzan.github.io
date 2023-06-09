@@ -7,7 +7,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Snippet from './components/Snippet';
 
-// TODO: Footer
 // TODO: Add Logo, take inspiration from other personal websites
 // TODO: Complete Snippet with json file
   // TODO: CSS
@@ -17,7 +16,7 @@ function App(workData) {
   let snippets = [];
   
   // Creates a Snippet component for all workData entries
-  // TODO: Evaluate json.parse() method
+  // TODO: Evaluate whether to use json.parse() method
   for (let index in workData) {
     let work = workData[index];
     // TODO: Add for new fields

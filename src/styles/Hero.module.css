@@ -1,21 +1,17 @@
 .Hero {
-    /* 2 boxes side by side
-    /* Left is text saying hello
-    /* Right is picture
-    */
+    display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
-    height: 100%
 }
 .textSection {
-    flex: 3;
+    flex: 6;
     font-size: 50px;
 }
-
 .imageSection {
-    flex: 7;
-    height: 5em;
-    width: auto;
-
+    display: flex;
+    justify-content: center;
+    flex: 4;
+}
+.image{
+    width: 70%;
 }

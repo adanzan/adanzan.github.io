@@ -16,19 +16,17 @@ export default function Snippet({orgName, location, positions}) {
         });
 
         return (
-            <div key={index}>
-                <p>{position.positionName}</p>
+            <div className="positionElement" key={index}>
+                <h3>{position.name}</h3>
                 <p>{dateElement}</p>
                 <p>{position.description}</p>
-                <br/>
             </div>
         );
     });
 
     return (
         <div className={styles.Snippet}>
-            <h2>{orgName}</h2>
-            <h3>{location}</h3>
+            <h2>{orgName + " - "+ location}</h2>
             {positionElement}
         </div>
     );
