@@ -12,7 +12,9 @@ export default function Snippet({orgName, location, positions}) {
     const positionElement = positions.map((position, index) => {
         return (
             <div className="positionElement" key={index}>
-                <h3>{position.name + " " + position.dateRange}</h3>
+                <div className="">
+                    <h3>{position.name + " " + position.dateRange}</h3>
+                </div>
                 <p>{position.description}</p>
             </div>
         );
