@@ -10,15 +10,9 @@ export default function Snippet({orgName, location, positions}) {
 
     // Creates an element for each position
     const positionElement = positions.map((position, index) => {
-        // Creates a list element for each dateRange worked as position
-        const dateElement = position.dateRange.map((date, index) => {
-            return (<p key={index}>{date}</p>);
-        });
-
         return (
             <div className="positionElement" key={index}>
-                <h3>{position.name}</h3>
-                <p>{dateElement}</p>
+                <h3>{position.name + " " + position.dateRange}</h3>
                 <p>{position.description}</p>
             </div>
         );
