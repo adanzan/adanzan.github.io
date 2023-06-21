@@ -8,12 +8,13 @@ import styles from "../styles/Snippet.module.css"
 
 export default function Snippet({orgName, location, positions}) {
 
-    // Creates an element for each position
+    // Creates an element for each position in the organization
     const positionElement = positions.map((position, index) => {
         return (
-            <div className="positionElement" key={index}>
-                <div className="">
-                    <h3>{position.name + " " + position.dateRange}</h3>
+            <div className="position" key={index}>
+                <div className="positionNameDate">
+                    <h3>{position.name}</h3>
+                    <h3>{position.dateRange}</h3>
                 </div>
                 <p>{position.description}</p>
             </div>
