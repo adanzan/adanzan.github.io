@@ -1,20 +1,29 @@
-.Snippet {
-    /* TODO: Add these tags for the journey component, not for individual snippet components */
+.snippetPaper {
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 15px;
     text-align: left;
 }
 h2 {
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 h3 {
+    margin-top: 10px;
     margin-bottom: 0px;
 }
-.snippetPaper {
-    padding: 20px;
+.organizationNameLocation {
+    display: flex;
+    justify-content: space-between;
 }
-.position {
+.positionPaper {
+    background-color: lightblue;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
 .positionNameDate {
     display: flex;
