@@ -1,14 +1,20 @@
 .Snippet {
     /* TODO: Add these tags for the journey component, not for individual snippet components */
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
     text-align: left;
-
+}
+h2 {
+    margin-top: 0px;
+}
+h3 {
+    margin-bottom: 0px;
+}
+.snippetPaper {
+    padding: 20px;
 }
 .position {
-
 }
 .positionNameDate {
     display: flex;

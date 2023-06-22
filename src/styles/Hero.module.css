@@ -1,7 +1,6 @@
 .Hero {
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin:10%;
 }
 .textSection {
     flex: 6;
