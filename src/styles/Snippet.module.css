@@ -1,29 +1,43 @@
 .snippetPaper {
+    text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 15px;
-    text-align: left;
 }
+/* The organization name */
 h2 {
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 40px;
 }
 h3 {
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.organizationNameLocation {
+.organization {
     display: flex;
-    justify-content: space-between;
+}
+.logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+    padding: 20px;
+}
+.organizationNameLocation {
+    /* Given absolute value to match the logo */
+    margin-top: 65px;
 }
 .positionPaper {
     background-color: lightblue;
-    margin: 10px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+    margin: 10px;
+}
+.position {
+
 }
 .positionNameDate {
     display: flex;

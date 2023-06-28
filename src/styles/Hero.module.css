@@ -1,16 +1,21 @@
 .Hero {
     display: flex;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    width: auto;
+    margin: auto;
 }
 .textSection {
     flex: 6;
     font-size: 50px;
 }
 .imageSection {
-    display: flex;
-    justify-content: center;
+    justify-content: center; 
     flex: 4;
 }
 .image{
+    flex: 4;
     width: 70%;
+    border-radius: 20%;
 }

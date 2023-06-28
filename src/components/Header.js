@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 export default function Header () {
   return (
         <div>
-            <Button variant="outlined">Download Resume</Button>
+            <Button variant="contained">Download Resume</Button>
             {/* Call to action -> View resume */}
         </div>
   );

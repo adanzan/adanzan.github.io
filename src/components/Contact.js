@@ -11,7 +11,6 @@ import EmailIcon from "@mui/icons-material/Email";
 export default function Header () {
   return (
         <div className={styles.Contact}>
-
             <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank">
                 <LinkedInIcon/> LinkedIn
             </IconButton>

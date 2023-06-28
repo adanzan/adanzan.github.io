@@ -1,5 +1,5 @@
 /**
- * Used to display a work object
+ * Features the details of an organization, along with the roles I worked as
 */
 
 import * as React from "react";
@@ -7,27 +7,30 @@ import Paper from "@mui/material/Paper";
 
 import styles from "../styles/Snippet.module.css";
 
-export default function Snippet ({ orgName, location, positions }) {
+export default function Snippet ({ orgName, location, logo, positions }) {
   // Creates an element for each position in the organization
   const positionElement = positions.map((position, index) => {
     return (
-            <Paper className={styles.positionPaper} key={index} elevation="2">
-                <div className={styles.positionNameDate}>
-                    <h3>{position.name}</h3>
-                    <h3>{position.dateRange}</h3>
-                </div>
-                <p>{position.description}</p>
-            </Paper>
+      <Paper className={styles.positionPaper} key={index} elevation={+2}>
+        <div className={styles.positionNameDate}>
+          <h3>{position.name}</h3>
+          <h3>{position.dateRange}</h3>
+        </div>
+        <p>{position.description}</p>
+      </Paper>
     );
   });
 
   return (
-        <Paper className={styles.snippetPaper} variant="outlined">
-          <div className={styles.organizationNameLocation}>
-            <h2>{orgName}</h2>
-            <h2>{location}</h2>
-          </div>
-          {positionElement}
-        </Paper>
+    <Paper className={styles.snippetPaper} variant="outlined">
+      <div className={styles.organization}>
+        <img className={styles.logo} src={logo} alt={orgName + " logo"}/>
+        <div className={styles.organizationNameLocation}>
+          <h2>{orgName}</h2>
+          <h2>{location}</h2>
+        </div>
+      </div>
+      {positionElement}
+    </Paper>
   );
 }
