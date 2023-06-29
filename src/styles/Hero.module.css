@@ -9,6 +9,7 @@
 .textSection {
     flex: 6;
     font-size: 50px;
+    margin: auto;
 }
 .imageSection {
     justify-content: center; 
