@@ -2,7 +2,7 @@
     {
         "orgName": "Agula Insurance",
         "location": "Ulaanbaatar, Mongolia",
-        "logoSource": "../resources/images/agula_logo.jpeg",
+        "logoLink": "https://agula.mn/",
         "positions": [
             {
                 "name": "Junior Software Engineer",
@@ -21,7 +21,7 @@
     {
         "orgName": "Middlebury College",
         "location": "VT, USA",
-        "logoSource": "../resources/images/middlebury_logo.png",
+        "logoLink": "https://www.middlebury.edu/",
         "positions": [
             {
                 "name": "Curriculum Development Assistant",
@@ -40,7 +40,7 @@
     {
         "orgName": "Kids Code Academy",
         "location": "Ulaanbaatar, Mongolia",
-        "logoSource": "../resources/images/kids_code_academy_logo.png",
+        "logoLink": "https://www.facebook.com/KidsCodeAcademyMongolia/",
         "positions": [
             {
                 "name": "Computer Science Instructor?",

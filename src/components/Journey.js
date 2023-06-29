@@ -19,7 +19,7 @@ export default function Journey( ) {
     // TODO: Use json.parse() method
     for (const index in workData) {
         const work = workData[index];
-        snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} logo={logos[index]} positions={work.positions}/>);
+        snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} logo={logos[index]} logoLink={work.logoLink} positions={work.positions}/>);
     } 
 
     return (

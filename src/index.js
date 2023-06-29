@@ -2,16 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-import "./index.css";
+import "./styles/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import workData from "./resources/workData.json";
-import agula_logo_file from "./resources/images/agula_logo.jpeg"
-
-const agula_logo = <img src={agula_logo_file} alt="Logo of Agula Insurance"></img>
-
-const props = {workData, agula_logo};
+//TODO: Remove if there are no props
+const props = {};
 
 const theme = createTheme({
   palette: {
