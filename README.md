@@ -4,6 +4,7 @@ This website hosts information about me and my journey.
 
 ## Technologies Used
 - Javascript
+- CSS  
 - React
 - MUI
 
