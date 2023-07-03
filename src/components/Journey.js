@@ -1,10 +1,11 @@
 /**
- * Creates my journey, which consists of multiple Snippet components
+ * My journey, which consists of multiple Snippet components
 */
 
 import * as React from "react";
 import Snippet from "./Snippet.js";
 
+import styles from "../styles/Journey.module.css";
 import workData from "../resources/workData.json";
 import agula_logo from "../resources/images/agula_logo.jpeg";
 import middlebury_logo from "../resources/images/middlebury_logo.png";
@@ -19,11 +20,13 @@ export default function Journey( ) {
     // TODO: Use json.parse() method
     for (const index in workData) {
         const work = workData[index];
-        snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} logo={logos[index]} logoLink={work.logoLink} positions={work.positions}/>);
+        snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} 
+                      logo={logos[index]} logoLink={work.logoLink} positions={work.positions}/>);
     } 
 
     return (
-        <div>
+        <div className={styles.Journey}>
+            <h2>My Journey</h2>
             {snippets}
         </div>
     );

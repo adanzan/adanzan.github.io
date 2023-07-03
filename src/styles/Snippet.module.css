@@ -1,19 +1,17 @@
 .snippetPaper {
     text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 /* The organization name */
-h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 40px;
-}
 h3 {
-    margin-top: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 50px;
+}
+h4 {
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 .organization {
@@ -23,22 +21,19 @@ h3 {
     width: 180px;
     height: 180px;
     border-radius: 20%;
-    padding: 20px;
+    margin: 20px;
 }
 .organizationNameLocation {
-    /* Given absolute value to match the logo */
-    margin-top: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.positionPaper {
-    background-color: lightblue;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    margin: 10px;
-}
-.position {
 
+.position {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
+
 .positionNameDate {
     display: flex;
     justify-content: space-between;

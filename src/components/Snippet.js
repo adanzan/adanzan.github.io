@@ -11,25 +11,27 @@ export default function Snippet ({ orgName, location, logo, logoLink, positions 
   // Creates an element for each position in the organization
   const positionElement = positions.map((position, index) => {
     return (
-      <Paper className={styles.positionPaper} key={index} elevation={+2}>
+      <div className={styles.position} key={index}>
         <div className={styles.positionNameDate}>
-          <h3>{position.name}</h3>
-          <h3>{position.dateRange}</h3>
+          <h4>{position.name}</h4>
+          <h4>{position.dateRange}</h4>
         </div>
         <p>{position.description}</p>
-      </Paper>
+      </div>
     );
   });
 
   return (
-    <Paper className={styles.snippetPaper} variant="outlined">
+    <Paper className={styles.snippetPaper} elevation={+10} >
       <div className={styles.organization}>
         <a href={logoLink} target="_blank" rel="noopener noreferrer">
+          {/* Use scale() to enlarge logos slightly when hovered over 
+          https://www.pluralsight.com/guides/create-a-hover-button-in-a-react-app*/}
           <img className={styles.logo} src={logo} alt={orgName + " logo"}/>
         </a>
         <div className={styles.organizationNameLocation}>
-          <h2>{orgName}</h2>
-          <h2>{location}</h2>
+          <h3>{orgName}</h3>
+          <h3>{location}</h3>
         </div>
       </div>
       {positionElement}
