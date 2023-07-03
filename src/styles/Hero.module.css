@@ -2,9 +2,10 @@
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%;
-    width: auto;
-    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* Make this 100% of the screen */
+    /* height: 100%; */
 }
 .textSection {
     flex: 6;
@@ -17,6 +18,6 @@
 }
 .image{
     flex: 4;
-    width: 70%;
+    width: 80%;
     border-radius: 20%;
 }
