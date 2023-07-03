@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6fc041e6ff0379c6ed56",
-    "url": "/static/css/main.bae2f6b4.chunk.css"
+    "revision": "f1d9377c24165fe0a25a",
+    "url": "/static/css/main.9804886d.chunk.css"
   },
   {
-    "revision": "6fc041e6ff0379c6ed56",
-    "url": "/static/js/main.827076bd.chunk.js"
+    "revision": "f1d9377c24165fe0a25a",
+    "url": "/static/js/main.d28891e5.chunk.js"
   },
   {
     "revision": "3a98e342d731ee8f563e",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/middlebury_logo.9f538d0b.png"
   },
   {
-    "revision": "3fe325fd43a7bf92bed22a21dbf259f5",
+    "revision": "1f64df7b4baf4f01765484bf24b1e2ae",
     "url": "/index.html"
   }
 ];
