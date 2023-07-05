@@ -12,11 +12,11 @@ const props = {};
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1ac959",
-      // #209CEE
+      main: "#1a8cc9",
     },
     secondary: {
-      main: "#1a8cc9",
+      main: "#1ac959",
+      // #209CEE
     },
     tertiary: {
       main: "#571ac9",

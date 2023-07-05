@@ -23,14 +23,14 @@ export default function Snippet ({ orgName, location, logo, logoLink, positions 
 
   return (
     <Paper className={styles.snippetPaper} elevation={+10} >
-      <div className={styles.organization}>
+      <div className={styles.org}>
         <a href={logoLink} target="_blank" rel="noopener noreferrer">
-          {/* Use scale() to enlarge logos slightly when hovered over 
-          https://www.pluralsight.com/guides/create-a-hover-button-in-a-react-app*/}
           <img className={styles.logo} src={logo} alt={orgName + " logo"}/>
         </a>
-        <div className={styles.organizationNameLocation}>
-          <h3>{orgName}</h3>
+        <div className={styles.orgNameLocation}>
+          <a className={styles.orgName} href={logoLink} target="_blank" rel="noopener noreferrer">
+            <h3>{orgName}</h3>
+          </a>
           <h3>{location}</h3>
         </div>
       </div>

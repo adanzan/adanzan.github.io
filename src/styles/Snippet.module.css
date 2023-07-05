@@ -16,21 +16,32 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.organization {
+.org {
     display: flex;
     flex-wrap: wrap;
 }
 .logo {
     width: 180px;
     height: 180px;
-    border-radius: 20%;
+    border-radius: 30%;
     margin: 20px;
     margin-right: 50px;
+    transition-duration: 0.5s;
 }
-.organizationNameLocation {
+.logo:hover {
+    border-radius: 20%;
+    transition-duration: 0.5s;
+}
+.orgNameLocation {
     margin: auto;
     margin-left: 1rem;
     padding-bottom: 1rem;
+}
+.orgName {
+    text-decoration: none;
+}
+.orgName:hover {
+    text-decoration: underline;
 }
 .position {
     padding-left: 1rem;

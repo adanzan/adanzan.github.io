@@ -1,7 +1,8 @@
 .App {
-
 }
-
+a {
+  color: #37c;
+}
 h1 {
   font-size: 3.5rem;
 }

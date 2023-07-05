@@ -11,7 +11,7 @@ export default function Hero () {
     // 0 = None Selected
   const [mouseHover, setMouseHover] = useState(0);
 
-  const OPACITY = 0.25;
+  const HOVER_OPACITY = 0.1;
 
   return (
     <div className={styles.Hero}>
@@ -19,9 +19,9 @@ export default function Hero () {
         <h1>Hi, I'm</h1>
         {/* Reduces opacity of firstName that is not selected */}
         <div className={styles.firstName} onMouseLeave={() => {setMouseHover(0)}}>
-          <h1 style={{opacity: mouseHover === 2? OPACITY : 1}}
-              onMouseEnter={()=> {setMouseHover(1)}}>Anthony&nbsp;</h1>
-          <h1 style={{opacity: mouseHover === 1? OPACITY : 1}}
+          <h1 className={styles.firstNameLeft} style={{opacity: mouseHover === 2? HOVER_OPACITY : 1}}
+              onMouseEnter={()=> {setMouseHover(1)}}>Anthony</h1>
+          <h1 className={styles.firstNameRight} style={{opacity: mouseHover === 1? HOVER_OPACITY : 1}}
               onMouseEnter={()=> {setMouseHover(2)}}>Danzan</h1>
         </div>
         <h1>Achit-Erdene</h1>
