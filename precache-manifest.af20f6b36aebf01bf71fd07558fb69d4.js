@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1d4107bd13d15918736d",
-    "url": "/static/css/main.5ac2dab7.chunk.css"
+    "revision": "d7a4c97000eb49d650a7",
+    "url": "/static/css/main.a00cb80d.chunk.css"
   },
   {
-    "revision": "1d4107bd13d15918736d",
-    "url": "/static/js/main.e906381f.chunk.js"
+    "revision": "d7a4c97000eb49d650a7",
+    "url": "/static/js/main.f251b8a1.chunk.js"
   },
   {
     "revision": "215391c2cffdcff151ab",
     "url": "/static/js/runtime~main.fe2f5706.js"
   },
   {
-    "revision": "303e328aeeedd7e5cb95",
-    "url": "/static/js/2.cfef607c.chunk.js"
+    "revision": "0e65540bcb26cf25ca1d",
+    "url": "/static/js/2.22d2b949.chunk.js"
   },
   {
     "revision": "7dd41f95d2a097700782",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/middlebury_logo.9f538d0b.png"
   },
   {
-    "revision": "ffb9be160385a7c7db4d3ccaf7058aff",
+    "revision": "9a7acb67ebd66570de47e4bf199c202c",
     "url": "/index.html"
   }
 ];
