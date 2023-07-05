@@ -14,15 +14,12 @@ export default function Header () {
             <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank">
                 <LinkedInIcon/> LinkedIn
             </IconButton>
-
             <IconButton href="https://github.com/adanzan" target="_blank">
                 <GitHubIcon/> GitHub
             </IconButton>
-
             <IconButton href="https://www.instagram.com/a_danzan/" target="_blank">
                 <InstagramIcon/> Instagram
             </IconButton>
-
             <IconButton href="mailto:danzanachiterdene@gmail.com" target="_blank">
                 <EmailIcon/> Email
             </IconButton>

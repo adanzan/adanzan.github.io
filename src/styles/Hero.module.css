@@ -1,7 +1,9 @@
 .Hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 100%;
     margin: auto;
 }
@@ -10,15 +12,17 @@ h1 {
 }
 .textSection {
     flex: 6;
-    font-size: 2rem;
     margin: auto;
+    padding: 2em;
 }
-.imageSection {
-    justify-content: center; 
-    flex: 4;
+.firstName {
+    display: flex;
+    justify-content: center;
 }
-.image{
+.image {
     flex: 4;
-    width: 80%;
+    width: 50%;
+    min-width: 300px;
+    max-width: 900px;
     border-radius: 20%;
 }

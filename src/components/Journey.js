@@ -18,7 +18,7 @@ export default function Journey( ) {
     const logos = [agula_logo, middlebury_logo, kids_code_academy_logo];
     // Creates a Snippet component for all workData entries
     // TODO: Use json.parse() method
-    for (const index in workData) {
+    for (let index in workData) {
         const work = workData[index];
         snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} 
                       logo={logos[index]} logoLink={work.logoLink} positions={work.positions}/>);
