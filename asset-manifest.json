@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.577630e6.chunk.css",
-  "main.js": "/static/js/main.e1cc97eb.chunk.js",
-  "main.js.map": "/static/js/main.e1cc97eb.chunk.js.map",
+  "main.css": "/static/css/main.5ac2dab7.chunk.css",
+  "main.js": "/static/js/main.e906381f.chunk.js",
+  "main.js.map": "/static/js/main.e906381f.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.fe2f5706.js",
   "runtime~main.js.map": "/static/js/runtime~main.fe2f5706.js.map",
   "static/js/2.cfef607c.chunk.js": "/static/js/2.cfef607c.chunk.js",
@@ -9,9 +9,9 @@
   "static/js/3.1a1a56f6.chunk.js": "/static/js/3.1a1a56f6.chunk.js",
   "static/js/3.1a1a56f6.chunk.js.map": "/static/js/3.1a1a56f6.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.f30063b752eb935a541ac99adb02a7b0.js": "/precache-manifest.f30063b752eb935a541ac99adb02a7b0.js",
+  "precache-manifest.c7846ead6df68de35a977b13e5f33cf4.js": "/precache-manifest.c7846ead6df68de35a977b13e5f33cf4.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.577630e6.chunk.css.map": "/static/css/main.577630e6.chunk.css.map",
+  "static/css/main.5ac2dab7.chunk.css.map": "/static/css/main.5ac2dab7.chunk.css.map",
   "static/media/agula_logo.jpeg": "/static/media/agula_logo.d0a1f0f3.jpeg",
   "static/media/middlebury_logo.png": "/static/media/middlebury_logo.9f538d0b.png",
   "static/media/new_portrait.png": "/static/media/new_portrait.889c0bd6.png"
