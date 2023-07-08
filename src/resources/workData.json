@@ -36,15 +36,15 @@
                 "description": "After taking an elective course in computer science, I was selected to tutor the upcoming class. In my position, I helped students develop their own projects, offering insight on syntax, as well as design principles.\n\n I learned to talk someone through a concept they have a misunderstanding of."
             }
         ]
-    }, 
+    },
     {
         "name": "Kids Code Academy",
         "location": "Ulaanbaatar, Mongolia",
         "link": "https://www.facebook.com/KidsCodeAcademyMongolia/",
         "positions": [
             {
-                "name": "Computer Science Instructor?",
-                "dateRange": ["???"],
+                "name": "Coding Instructor",
+                "dateRange": ["07/2019 - 08/2019"],
                 "technologiesUsed": ["Scratch"],
                 "description": "After my first year at Middlebury College, I worked at Kids Code Academy to teach an introductory summer bootcamp on programming. I and my team worked with primary and middle school students and helped them create their own games by the end of the course.\n\n I learned to teach, and to communicate within a team."
             }

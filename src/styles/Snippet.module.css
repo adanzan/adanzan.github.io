@@ -21,7 +21,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    /* overflow-wrap: break-word;  */
     column-gap: 2rem;
 }
 .logo {
