@@ -1,18 +1,24 @@
+/* TODO: Photo is warped in some aspects */
 .Hero {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 10%;
     padding-left: 10%;
     padding-right: 10%;
     /* height: 100%; */
     margin: auto;
+
+    background-color: lightblue;
 }
 h1 {
     margin: 0px;
 }
 .textSection {
     flex: 6;
+    height: 100%;
     margin: auto;
+    justify-content: center;
     padding: 2em;
 }
 .firstName {
@@ -22,7 +28,7 @@ h1 {
     animation-delay: 0.5s;
 }
 .firstNameLeft {
-    /* For spacing between */
+    /* For spacing between the two first names*/
     padding-right: 0.25em;
 }
 .firstNameLeft, .firstNameLeft:hover, 

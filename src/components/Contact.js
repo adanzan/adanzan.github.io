@@ -12,16 +12,16 @@ export default function Header () {
   return (
         <div className={styles.Contact}>
             <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank" color="primary">
-                <LinkedInIcon/> LinkedIn
+                <LinkedInIcon/> 
             </IconButton>
             <IconButton href="https://github.com/adanzan" target="_blank" color="primary">
-                <GitHubIcon/> GitHub
+                <GitHubIcon/> 
             </IconButton>
             <IconButton href="https://www.instagram.com/a_danzan/" target="_blank" color="primary">
-                <InstagramIcon/> Instagram
+                <InstagramIcon/> 
             </IconButton>
             <IconButton href="mailto:danzanachiterdene@gmail.com" target="_blank" color="primary">
-                <EmailIcon/> Email
+                <EmailIcon/> 
             </IconButton>
         </div>
   );

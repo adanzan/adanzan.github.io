@@ -1,0 +1,14 @@
+.EducationSnippet {
+
+}
+.detailsWrapper {
+    margin: auto;
+}
+.details {
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}

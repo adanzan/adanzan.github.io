@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 
 import styles from "../styles/Hero.module.css";
-import portrait from "../resources/images/new_portrait.png";
+import portrait from "../resources/images/portrait.png";
 
 export default function Hero () {
   //On-hover, On-leave, change the visibility of name 

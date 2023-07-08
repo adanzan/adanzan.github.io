@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import "./styles/index.css";
-import App from "./App";
+import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
  
 //TODO: Remove if there are no props

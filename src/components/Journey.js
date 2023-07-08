@@ -3,31 +3,53 @@
 */
 
 import * as React from "react";
-import Snippet from "./Snippet.js";
+import WorkSnippet from "./WorkSnippet";
+import EducationSnippet from "./EducationSnippet"
 
 import styles from "../styles/Journey.module.css";
 import workData from "../resources/workData.json";
-import agula_logo from "../resources/images/agula_logo.jpeg";
-import middlebury_logo from "../resources/images/middlebury_logo.png";
-import kids_code_academy_logo from "../resources/images/kids_code_academy_logo.png";
+import agulaLogo from "../resources/images/agulaLogo.jpeg";
+import middleburyLogo from "../resources/images/middleburyLogo.png";
+import kidsCodeAcademyLogo from "../resources/images/kidsCodeAcademyLogo.png";
+import orchlonLogo from "../resources/images/orchlon.png";
 
 export default function Journey( ) {
-    // List of all journey snippets
-    const snippets = [];
-    // An array of all logos
-    const logos = [agula_logo, middlebury_logo, kids_code_academy_logo];
-    // Creates a Snippet component for all workData entries
+    // List of all work snippets
+    const workSnippets = [];
+    // An array of all logos used in the workSnippet
+    const logos = [agulaLogo, middleburyLogo, kidsCodeAcademyLogo];
+    // Creates a WorkSnippet component for all workData entries
     // TODO: Use json.parse() method
     for (let index in workData) {
         const work = workData[index];
-        snippets.push(<Snippet key={index} orgName={work.orgName} location={work.location} 
-                      logo={logos[index]} logoLink={work.logoLink} positions={work.positions}/>);
+        workSnippets.push(<WorkSnippet key={index} name={work.name} location={work.location} 
+                      logo={logos[index]} link={work.link} positions={work.positions}/>);
     } 
+
+    const middleburyAchievements = ["cum laude", "Computer Science Honors"];
+    const orchlonAchievements = ["Captain of varsity volleyball team", "Class President for 9 years"];
 
     return (
         <div className={styles.Journey}>
             <h2>My Journey</h2>
-            {snippets}
+            <div className={styles.snippets}>
+                <EducationSnippet name="Middlebury College"
+                                dateRange={"2018/09 - 2023/02"}
+                                location={"Middlebury, VT"}
+                                logo={middleburyLogo}
+                                link={"https://www.middlebury.edu/"}
+                                gpa={"3.5"}
+                                achievements={middleburyAchievements}/>   
+                {/* Work */}
+                {workSnippets}
+                <EducationSnippet name="Orchlon International School"
+                                dateRange="2005/09 - 2018/06" 
+                                location="Ulaanbaatar, Mongolia" 
+                                logo={orchlonLogo} 
+                                link={"https://orchlon.mn/en/"} 
+                                gpa="3.9" 
+                                achievements={orchlonAchievements}/>  
+            </div>
         </div>
     );
 }
