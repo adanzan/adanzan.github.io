@@ -29,7 +29,7 @@ h1 {
 }
 .firstNameLeft {
     /* For spacing between the two first names*/
-    padding-right: 0.25em;
+    padding-right: 1rem;
 }
 .firstNameLeft, .firstNameLeft:hover, 
 .firstNameRight, .firstNameRight:hover {

@@ -16,7 +16,7 @@ export default function Hero () {
   return (
     <div className={styles.Hero}>
       <div className={styles.textSection}>
-        <h1>Hi, I'm</h1>
+        <h1>Hello, I'm</h1>
         {/* Reduces opacity of firstName that is not selected */}
         <div className={styles.firstName} onMouseLeave={() => {setMouseHover(0)}}>
           <h1 className={styles.firstNameLeft} style={{opacity: mouseHover === 2? HOVER_OPACITY : 1}}
@@ -25,6 +25,7 @@ export default function Hero () {
               onMouseEnter={()=> {setMouseHover(2)}}>Danzan</h1>
         </div>
         <h1>Achit-Erdene</h1>
+        <p className>I am a recent graduate Software Developer</p>
       </div>
       <img className={styles.image} src={portrait} alt="Me"/>
     </div>

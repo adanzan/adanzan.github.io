@@ -34,7 +34,7 @@ export default function Journey( ) {
             <h2>My Journey</h2>
             <div className={styles.snippets}>
                 <EducationSnippet name="Middlebury College"
-                                dateRange={"2018/09 - 2023/02"}
+                                dateRange={"Sep/2018 - Feb/2023"}
                                 location={"Middlebury, VT"}
                                 logo={middleburyLogo}
                                 link={"https://www.middlebury.edu/"}
@@ -43,7 +43,7 @@ export default function Journey( ) {
                 {/* Work */}
                 {workSnippets}
                 <EducationSnippet name="Orchlon International School"
-                                dateRange="2005/09 - 2018/06" 
+                                dateRange="Sep/2006 - May/2018" 
                                 location="Ulaanbaatar, Mongolia" 
                                 logo={orchlonLogo} 
                                 link={"https://orchlon.mn/en/"} 

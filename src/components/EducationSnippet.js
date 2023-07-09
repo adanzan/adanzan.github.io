@@ -26,7 +26,7 @@ export default function EducationSnippet ({name, dateRange, location, logo, link
                             <a className={stylesSnippet.name} href={link} target="_blank" rel="noopener noreferrer">
                                 <h3>{name}</h3>
                             </a>
-                            <h4>{location}</h4>
+                            <p className={stylesSnippet.location}>{location}</p>
                         </div>
                     </div>
                     <div className={styles.detailsWrapper}>
