@@ -3,8 +3,11 @@
 
 body {
   font-family: Montserrat, Lato, Tahoma, sans-serif;
-  background-color: #dcd2c9;
+  /* background-color: #dcd2c9; */
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(lightblue, royalblue);
 }
 
 code {

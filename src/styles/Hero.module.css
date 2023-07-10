@@ -9,7 +9,7 @@
     /* height: 100%; */
     margin: auto;
 
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 h1 {
     margin: 0px;
@@ -34,6 +34,10 @@ h1 {
 .firstNameLeft, .firstNameLeft:hover, 
 .firstNameRight, .firstNameRight:hover {
     transition-duration: 0.5s;
+}
+.brief {
+    font-size: 1.2rem;
+    opacity: 0.8;
 }
 .image {
     flex: 4;

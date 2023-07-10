@@ -14,11 +14,8 @@ export default function WorkSnippet ({ name, location, logo, link, positions }) 
   const positionElement = positions.map((position, index) => {
     return (
       <div className={styles.position} key={index}>
-        <div className={styles.positionNameDate}>
-          <h4>{position.name}</h4>
-          <h4>{position.dateRange}</h4>
-        </div>
-        <p>{position.description}</p>
+        <p> <strong>{position.name}</strong></p>
+        <p>{position.dateRange}</p>
       </div>
     )
   })
@@ -39,7 +36,11 @@ export default function WorkSnippet ({ name, location, logo, link, positions }) 
             </div>
           </div>
         </div>
-        {positionElement}
+        <div className={styles.detailsWrapper}>
+            {/* <div className={styles.details}> */}
+              {positionElement}
+            {/* </div> */}
+        </div>
       </Paper>
     </div>
   )

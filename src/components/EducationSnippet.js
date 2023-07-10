@@ -28,12 +28,12 @@ export default function EducationSnippet ({ name, dateRange, location, logo, lin
                             <p className={styles.location}>{location}</p>
                         </div>
                     </div>
-                    <div className={styles.detailsWrapper}>
-                        <div className={styles.details}>
-                            <h4>{dateRange}</h4>
-                            <p> <strong>GPA:</strong> {gpa}</p>
-                            <p>{achievementElement}</p>
-                        </div>
+                </div>
+                <div className={styles.detailsWrapper}>
+                    <div className={styles.details}>
+                        <p className={styles.detailsDate}>{dateRange}</p>
+                        <p> <strong>GPA:</strong> {gpa}</p>
+                        <p>{achievementElement}</p>
                     </div>
                 </div>
             </Paper>
