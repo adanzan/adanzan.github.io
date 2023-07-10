@@ -1,7 +1,6 @@
 import * as React from "react";
 
-import styles from "../styles/EducationSnippet.module.css";
-import stylesSnippet from "../styles/Snippet.module.css";
+import styles from "../styles/Snippet.module.css";
 
 import { Paper } from "@mui/material";
 
@@ -16,17 +15,17 @@ export default function EducationSnippet ({name, dateRange, location, logo, link
 
     return (
         <div className={styles.EducationSnippet}>
-            <Paper className={stylesSnippet.snippetPaper} elevation={+10} style={{backgroundColor: "#fff3e0"}}>
-                <div className={stylesSnippet.org}>
+            <Paper className={styles.snippetPaper} elevation={+10} style={{backgroundColor: "#fff3e0"}}>
+                <div className={styles.org}>
                     <a href={link} target="_blank" rel="noopener noreferrer">
-                        <img className={stylesSnippet.logo} src={logo} alt={name + "logo"}/>
+                        <img className={styles.logo} src={logo} alt={name + "logo"}/>
                     </a>
-                    <div className={stylesSnippet.nameLocationWrapper}>
-                        <div className={stylesSnippet.nameLocation}>
-                            <a className={stylesSnippet.name} href={link} target="_blank" rel="noopener noreferrer">
+                    <div className={styles.nameLocationWrapper}>
+                        <div className={styles.nameLocation}>
+                            <a className={styles.name} href={link} target="_blank" rel="noopener noreferrer">
                                 <h3>{name}</h3>
                             </a>
-                            <p className={stylesSnippet.location}>{location}</p>
+                            <p className={styles.location}>{location}</p>
                         </div>
                     </div>
                     <div className={styles.detailsWrapper}>

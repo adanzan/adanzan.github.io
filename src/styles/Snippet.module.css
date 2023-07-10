@@ -60,3 +60,37 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+/* Education styles */
+.EducationSnippet {
+
+}
+.detailsWrapper {
+    margin: auto;
+}
+.details {
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Work styles */
+.position {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+.positionNameDate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.positionDescription {
+}
+.WorkSnippet {
+    
+}
