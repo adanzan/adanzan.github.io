@@ -4,10 +4,10 @@
 
 // TODO: MUI Grid styling on logo and name so that it doesn't deform with rescaling
 
-import * as React from "react";
-import Paper from "@mui/material/Paper";
+import * as React from 'react'
+import Paper from '@mui/material/Paper'
 
-import styles from "../styles/Snippet.module.css";
+import styles from '../styles/Snippet.module.css'
 
 export default function WorkSnippet ({ name, location, logo, link, positions }) {
   // Creates an element for each position in the organization
@@ -20,15 +20,15 @@ export default function WorkSnippet ({ name, location, logo, link, positions }) 
         </div>
         <p>{position.description}</p>
       </div>
-    );
-  });
+    )
+  })
 
   return (
     <div className={styles.WorkSnippet}>
-      <Paper className={styles.snippetPaper} elevation={+10} style={{backgroundColor: "#fff3e0"}}>
+      <Paper className={styles.snippetPaper} elevation={+10} style={{ backgroundColor: '#fff3e0' }}>
         <div className={styles.org}>
           <a href={link} target="_blank" rel="noopener noreferrer">
-            <img className={styles.logo} src={logo} alt={name + " logo"}/>
+            <img className={styles.logo} src={logo} alt={name + ' logo'}/>
           </a>
           <div className={styles.nameLocationWrapper}>
             <div className={styles.nameLocation}>
@@ -42,5 +42,5 @@ export default function WorkSnippet ({ name, location, logo, link, positions }) 
         {positionElement}
       </Paper>
     </div>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react'
 
-import { Button } from "@mui/material";
+import { Button } from '@mui/material'
 
 export default function Header () {
   return (
@@ -8,5 +8,5 @@ export default function Header () {
             <Button variant="contained" disabled={true}>Download Resume</Button>
             {/* Call to action -> View resume */}
         </div>
-  );
+  )
 }

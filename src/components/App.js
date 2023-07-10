@@ -1,14 +1,12 @@
-import * as React from "react";
+import * as React from 'react'
 
-import "../styles/App.css";
-import Header from "./Header";
-import Hero from "./Hero";
-import Journey from "./Journey";
-import Contact from "./Contact";
-
+import '../styles/App.css'
+import Header from './Header'
+import Hero from './Hero'
+import Journey from './Journey'
+import Contact from './Contact'
 
 function App () {
-
   return (
     <div className="App">
       <Header/>
@@ -16,7 +14,7 @@ function App () {
       <Journey/>
       <Contact/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
