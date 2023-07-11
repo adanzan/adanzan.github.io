@@ -1,12 +1,23 @@
 import * as React from 'react'
 
-import { Button } from '@mui/material'
+import styles from "../styles/Header.module.css"
+
+import { AppBar, Toolbar, Button } from '@mui/material'
+
+import logo from "../resources/images/logo.png"
 
 export default function Header () {
   return (
-        <div>
+    <AppBar>
+      <Toolbar >
+        <img className={styles.logo} src={logo} alt="logo"/>
+        <div className={styles.buttons}>
+            <Button variant="outline">Education</Button>
+            <Button variant="outline">Experience</Button>
+            <Button variant="outline">Contact</Button>
             <Button variant="contained" disabled={true}>Download Resume</Button>
-            {/* Call to action = View resume */}
         </div>
+      </Toolbar>
+    </AppBar>
   )
 }

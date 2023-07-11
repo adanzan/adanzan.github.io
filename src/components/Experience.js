@@ -7,6 +7,7 @@ import ExperienceSnippet from './ExperienceSnippet'
 
 import styles from '../styles/Experience.module.css'
 import workData from '../resources/workData.json'
+import aesLogo from "../resources/images/aesLogo.png"
 import agulaLogo from '../resources/images/agulaLogo.jpeg'
 import middleburyLogo from '../resources/images/middleburyLogo.png'
 import kidsCodeAcademyLogo from '../resources/images/kidsCodeAcademyLogo.png'
@@ -15,7 +16,7 @@ export default function Experience () {
   // List of all work snippets
   const experienceSnippets = []
   // An array of all logos used in the experienceSnippets
-  const logos = [agulaLogo, middleburyLogo, kidsCodeAcademyLogo]
+  const logos = [aesLogo, agulaLogo, middleburyLogo, kidsCodeAcademyLogo]
   // Creates a ExperienceSnippet component for all workData entries
   // TODO: Use json.parse() method
   for (const index in workData) {

@@ -1,5 +1,16 @@
 [
     {
+        "name": "Associated Environmental Systems",
+        "location": "Acton, MA",
+        "link": "https://www.associatedenvironmentalsystems.com/",
+        "positions": [
+            {
+                "name": "Marketing Response Representative",
+                "dateRange": "April 2023 - Present"
+            }
+        ]
+    },
+    {
         "name": "Agula Insurance",
         "location": "Ulaanbaatar, Mongolia",
         "link": "https://agula.mn/",

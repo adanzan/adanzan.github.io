@@ -20,6 +20,9 @@ const theme = createTheme({
     },
     tertiary: {
       main: '#571ac9'
+    },
+    icon: {
+      main: '#FFFFFF'
     }
   }
 })

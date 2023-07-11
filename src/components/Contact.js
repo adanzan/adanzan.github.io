@@ -11,18 +11,21 @@ import EmailIcon from '@mui/icons-material/Email'
 export default function Header () {
   return (
         <div className={styles.Contact}>
-            <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank" color="white">
-                <LinkedInIcon/>
-            </IconButton>
-            <IconButton href="https://github.com/adanzan" target="_blank">
-                <GitHubIcon/>
-            </IconButton>
-            <IconButton href="https://www.instagram.com/a_danzan/" target="_blank">
-                <InstagramIcon/>
-            </IconButton>
-            <IconButton href="mailto:danzanachiterdene@gmail.com" target="_blank">
-                <EmailIcon/>
-            </IconButton>
+            <h2>Contact Me</h2>
+            <div className={styles.icons}>
+                <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank">
+                    <LinkedInIcon color='icon' fontSize='large'/>
+                </IconButton>
+                <IconButton href="https://github.com/adanzan" target="_blank" size="large">
+                    <GitHubIcon color='icon' fontSize='large'/>
+                </IconButton>
+                <IconButton href="https://www.instagram.com/a_danzan/" target="_blank">
+                    <InstagramIcon color='icon' fontSize='large'/>
+                </IconButton>
+                <IconButton href="mailto:danzanachiterdene@gmail.com" target="_blank">
+                    <EmailIcon color='icon' fontSize='large'/>
+                </IconButton>
+            </div>
         </div>
-  )
+  );
 }
