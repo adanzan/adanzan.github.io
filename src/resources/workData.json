@@ -6,14 +6,14 @@
         "positions": [
             {
                 "name": "Junior Software Engineer",
-                "dateRange": "Mar/2021 - Jul/2021",
+                "dateRange": "Mar 2021 - Jul 2021",
                 "technologiesUsed": ["Python", "Odoo", "Git", "GitHub"],
                 "description": "When I was nearing the end of my internship and my Winter term, I was offered the opportunity to continue my career at Agula Insurance as a Junior Software Engineer. I accepted, and I took the Spring semester off at Middlebury to further my understanding of Python and ERP/CRM development."
             },
             {
                 "name": "Software Engineer Intern",
                 "technologiesUsed": ["Python", "Odoo", "Git", "GitHub"],
-                "dateRange": "Nov/2020 - Mar/2021",
+                "dateRange": "Nov 2020 - Mar 2021",
                 "description": "I accepted the position of Software Engineering Intern at Agula Insurance while I was in Mongolia, due to the pandemic. While it was only a startup when I joined, Agula Insurance is now one of the top insurance agencies in Mongolia. I've had the incredible opportunity to grow with the company and I am grateful to my teammates, who accepted me with open arms."
             }
         ]
@@ -25,13 +25,13 @@
         "positions": [
             {
                 "name": "Curriculum Development Assistant",
-                "dateRange": "Aug/2022 - Sep/2022",
+                "dateRange": "Aug 2022 - Sep 2022",
                 "technologiesUsed": ["Python", "NetLogo", "HTML"],
                 "description": "Working with Professor Dickerson at Middlebury College, we created an introductory Python, HTML and Netlogo curriculum. The course was taught by Professor Dickerson to students at Port Alsworth, Alaska.\n\n My time as a curriculum development assistant helped me to understand what we can do to teach, and learn effectively."
             },
             {
                 "name": "Computer Science Tutor",
-                "dateRange": "Feb/2022 - May/2022",
+                "dateRange": "Feb 2022 - May 2022",
                 "technologiesUsed": ["NetLogo"],
                 "description": "After taking an elective course in computer science, I was selected to tutor the upcoming class. In my position, I helped students develop their own projects, offering insight on syntax, as well as design principles.\n\n I learned to talk someone through a concept they have a misunderstanding of."
             }
@@ -44,7 +44,7 @@
         "positions": [
             {
                 "name": "Coding Instructor",
-                "dateRange": ["Jul/2019 - Aug/2019"],
+                "dateRange": ["Jul 2019 - Aug 2019"],
                 "technologiesUsed": ["Scratch"],
                 "description": "After my first year at Middlebury College, I worked at Kids Code Academy to teach an introductory summer bootcamp on programming. I and my team worked with primary and middle school students and helped them create their own games by the end of the course.\n\n I learned to teach, and to communicate within a team."
             }

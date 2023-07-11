@@ -18,7 +18,7 @@ export default function Education () {
             <EducationSnippet name='Middlebury College'
                                 degree={`B.A. in Computer Science,
                                          \n     Minor in Russian Language`}
-                                dateRange='Sep/2018 - Feb/2023'
+                                dateRange='Sep 2018 - Feb 2023'
                                 location='Middlebury, VT'
                                 logo={middleburyLogo}
                                 link='https://www.middlebury.edu/'
@@ -26,7 +26,7 @@ export default function Education () {
                                 achievements={middleburyAchievements}/>
             <EducationSnippet name='Orchlon International School'
                                 degree='High School Diploma'
-                                dateRange="Sep/2006 - May/2018"
+                                dateRange="Sep 2006 - May 2018"
                                 location="Ulaanbaatar, Mongolia"
                                 logo={orchlonLogo}
                                 link='https://orchlon.mn/en/'
