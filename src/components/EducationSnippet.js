@@ -15,7 +15,7 @@ export default function EducationSnippet ({ name, dateRange, location, logo, lin
 
   return (
         <div className={styles.EducationSnippet}>
-            <Paper className={styles.snippetPaper} elevation={+10} style={{ backgroundColor: '#fff3e0' }}>
+             <Paper className={styles.snippetPaper} elevation={+10}>
                 <div className={styles.org}>
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         <img className={styles.logo} src={logo} alt={name + 'logo'}/>

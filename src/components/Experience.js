@@ -1,19 +1,19 @@
 /**
- * My journey, which consists of multiple Snippet components
+ * My work experience, consists of multiple Snippet components
 */
 
 import * as React from 'react'
 import WorkSnippet from './WorkSnippet'
 import EducationSnippet from './EducationSnippet'
 
-import styles from '../styles/Journey.module.css'
+import styles from '../styles/Experience.module.css'
 import workData from '../resources/workData.json'
 import agulaLogo from '../resources/images/agulaLogo.jpeg'
 import middleburyLogo from '../resources/images/middleburyLogo.png'
 import kidsCodeAcademyLogo from '../resources/images/kidsCodeAcademyLogo.png'
 import orchlonLogo from '../resources/images/orchlon.png'
 
-export default function Journey () {
+export default function Experience () {
   // List of all work snippets
   const workSnippets = []
   // An array of all logos used in the workSnippet
@@ -31,7 +31,7 @@ export default function Journey () {
 
   return (
         <div className={styles.Journey}>
-            <h2>My Journey</h2>
+            <h2>Work Experience</h2>
             <div className={styles.snippets}>
                 <EducationSnippet name="Middlebury College"
                                 dateRange={'Sep/2018 - Feb/2023'}

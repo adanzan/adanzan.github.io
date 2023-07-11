@@ -3,7 +3,7 @@ import * as React from 'react'
 import '../styles/App.css'
 import Header from './Header'
 import Hero from './Hero'
-import Journey from './Journey'
+import Experience from './Experience'
 import Contact from './Contact'
 
 function App () {
@@ -11,7 +11,7 @@ function App () {
     <div className="App">
       <Header/>
       <Hero/>
-      <Journey/>
+      <Experience/>
       <Contact/>
     </div>
   )

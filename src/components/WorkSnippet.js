@@ -22,8 +22,8 @@ export default function WorkSnippet ({ name, location, logo, link, positions }) 
 
   return (
     <div className={styles.WorkSnippet}>
-      <Paper className={styles.snippetPaper} elevation={+10} style={{ backgroundColor: '#fff3e0' }}>
-        <div className={styles.org}>
+      <Paper className={styles.snippetPaper} elevation={+10}>
+                <div className={styles.org}>
           <a href={link} target="_blank" rel="noopener noreferrer">
             <img className={styles.logo} src={logo} alt={name + ' logo'}/>
           </a>
