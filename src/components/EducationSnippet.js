@@ -4,14 +4,14 @@ import styles from '../styles/Snippet.module.css'
 
 import { Paper } from '@mui/material'
 
-export default function EducationSnippet ({ name, dateRange, location, logo, link, gpa, achievements }) {
+export default function EducationSnippet ({ name, degree, dateRange, location, logo, link, gpa, achievements }) {
   const achievementElement = achievements.map((achievement, index) => {
     return (
             <li key={index}>
                 {achievement}
             </li>
-    )
-  })
+    );
+  });
 
   return (
         <div className={styles.EducationSnippet}>
@@ -31,6 +31,7 @@ export default function EducationSnippet ({ name, dateRange, location, logo, lin
                 </div>
                 <div className={styles.detailsWrapper}>
                     <div className={styles.details}>
+                        <p className={styles.detailsDegree}> <strong>{degree}</strong> </p>
                         <p className={styles.detailsDate}>{dateRange}</p>
                         <p> <strong>GPA:</strong> {gpa}</p>
                         <p>{achievementElement}</p>

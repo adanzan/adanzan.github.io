@@ -78,7 +78,12 @@ h4 {
     /* justify-content: center; */
     text-align: left;
     margin: auto;
-
+}
+.detailsDegree {
+    font-style: italic;
+    white-space: pre-wrap;
+    line-height: 0.7em;
+    text-align: right;
 }
 .detailsDate {
     text-align: right;
