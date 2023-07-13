@@ -5,6 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 import './styles/index.css'
 import App from './components/App'
 import reportWebVitals from './reportWebVitals'
+// import { Typography } from '@mui/material'
 
 // TODO: Remove if there are no props
 const props = {}
@@ -24,6 +25,9 @@ const theme = createTheme({
     icon: {
       main: '#FFFFFF'
     }
+  },
+  typography: {
+    fontFamily: 'Lato'
   }
 })
 

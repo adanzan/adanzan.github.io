@@ -7,7 +7,7 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(lightblue, royalblue);
+  background: linear-gradient(lightblue, #ddd5f3);
 }
 
 code {

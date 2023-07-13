@@ -25,7 +25,7 @@ export default function Hero () {
               onMouseEnter={() => { setMouseHover(2) }}>Danzan</h1>
         </div>
         <h1>Achit-Erdene</h1>
-        <p className={styles.brief}>I am a recent graduate Software Developer based in Massachusetts</p>
+        <p className={styles.brief}>I am a recent graduate Software Developer based in Massachusetts.</p>
       </div>
       <img className={styles.image} src={portrait} alt="Me"/>
     </div>
