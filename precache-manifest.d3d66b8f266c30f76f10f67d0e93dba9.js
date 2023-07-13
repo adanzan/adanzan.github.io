@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "187566212475e949f553",
-    "url": "/static/css/main.950ec2f9.chunk.css"
+    "revision": "e514174bf8f1f1ee8824",
+    "url": "/static/css/main.b5b4a4cd.chunk.css"
   },
   {
-    "revision": "187566212475e949f553",
-    "url": "/static/js/main.5529a05b.chunk.js"
+    "revision": "e514174bf8f1f1ee8824",
+    "url": "/static/js/main.57a39701.chunk.js"
   },
   {
     "revision": "814fac06a890e7c45643",
     "url": "/static/js/runtime~main.6360dd90.js"
   },
   {
-    "revision": "b7c87ec3a12ec5f97ef8",
-    "url": "/static/js/2.62bd3f18.chunk.js"
+    "revision": "8ff15ee4e33c2755f3ec",
+    "url": "/static/js/2.c473fe92.chunk.js"
   },
   {
     "revision": "8d288c4508d80842dba8",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/agulaLogo.d0a1f0f3.jpeg"
   },
   {
-    "revision": "933d435f561b792c930274530df869f1",
+    "revision": "ff486e079678fcb84b44cf3879faf0fd",
     "url": "/index.html"
   }
 ];
