@@ -20,7 +20,7 @@
 }
 .buttonsWrapper {
     flex-grow: 1;
-    margin-left: -70px;
+    margin-left: -88px;
     /* margin-left: 20%;
     margin-right: 40%; */
     align-items: center;
@@ -36,7 +36,14 @@
     /* justify-content: right; */
     /* color: red; */
 }
-.button {
+.link {
     align-self: center;
-    color: black;
+
+    /* color: black; */
+}
+.linkActive {
+    align-self: center;
+
+    text-decoration-line: underline;
+    /* border-bottom: 1px solid #333; */
 }

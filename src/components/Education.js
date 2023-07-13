@@ -13,7 +13,7 @@ export default function Education () {
     const orchlonAchievements = ['Captain of varsity volleyball team', 'Class President for 9 years']
 
     return (
-        <div className={styles.Education}>
+        <div id="education" className={styles.Education}>
             <h2>Education</h2>
             <EducationSnippet name='Middlebury College'
                                 degree={`B.A. in Computer Science,

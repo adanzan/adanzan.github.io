@@ -10,7 +10,7 @@ import EmailIcon from '@mui/icons-material/Email'
 
 export default function Header () {
   return (
-        <div className={styles.Contact}>
+        <div id="contact" className={styles.Contact}>
             <h2>Contact Me</h2>
             <div className={styles.icons}>
                 <IconButton href="https://www.linkedin.com/anthony-achiterdene" target="_blank">
