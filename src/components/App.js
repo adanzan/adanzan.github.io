@@ -1,5 +1,4 @@
 //TODO: Check out MUI Slider
-//TODO: Check out react-scroll 
 
 import * as React from 'react'
 

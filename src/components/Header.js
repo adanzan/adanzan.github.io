@@ -49,7 +49,6 @@ export default function Header () {
                 duration={SCROLL_DURATION}>
                 CONTACT
             </Link>
-            {/* <Button variant="contained" disabled={true}>Download Resume</Button> */}
           </div>
         </div>
       </Toolbar>

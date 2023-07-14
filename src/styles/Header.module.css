@@ -5,10 +5,12 @@
 .toolbar {
     background-color: white;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 /* TODO: Remove if not adding name */
 .logoWrapper {
     display: flex;
+    /* flex-wrap: wrap; */
     /* margin: auto; */
     /*flex-wrap: wrap;
     column-gap: 20px;
@@ -38,7 +40,7 @@
 }
 .link {
     align-self: center;
-
+    cursor: pointer;
     /* color: black; */
 }
 .linkActive {

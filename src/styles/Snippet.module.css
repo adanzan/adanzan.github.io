@@ -29,12 +29,12 @@ h4 {
     flex-grow: 1;
     width: 150px;
     height: 150px;
-    border-radius: 30%;
+    border-radius: 15%;
     margin: 20px;
     transition-duration: 0.5s;
 }
 .logo:hover {
-    border-radius: 25%;
+    /* border-radius: 10%; */
     transition-duration: 0.5s;
 }
 .nameLocationWrapper {

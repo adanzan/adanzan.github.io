@@ -6,7 +6,7 @@ import * as React from 'react'
 import ExperienceSnippet from './ExperienceSnippet'
 
 import styles from '../styles/Experience.module.css'
-import workData from '../resources/workData.json'
+import workData from '../resources/files/workData.json'
 import aesLogo from "../resources/images/aesLogo.png"
 import agulaLogo from '../resources/images/agulaLogo.jpeg'
 import middleburyLogo from '../resources/images/middleburyLogo.png'
@@ -27,11 +27,11 @@ export default function Experience () {
 
 
   return (
-        <div id="experience" className={styles.Experience}>
-            <h2>Work Experience</h2>
-            <div className={styles.snippets}>
-                {experienceSnippets}
-            </div>
+    <div id="experience" className={styles.Experience}>
+        <h2>Work Experience</h2>
+        <div className={styles.snippets}>
+            {experienceSnippets}
         </div>
+    </div>
   )
 }
