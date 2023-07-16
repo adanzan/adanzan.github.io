@@ -9,10 +9,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../resources/images/logo.png"
 
 export default function Header () {
-  // How long the animation should play
   const SCROLL_DURATION = 500;
-  // How far to scroll past
   const SCROLL_OFFSET = -80;
+  const SCROLL_ANIMATION = 'easeInOutCubic';
 
   return (
     <AppBar className={styles.appBar}>
@@ -20,7 +19,6 @@ export default function Header () {
         <Button onClick={() => scroll.scrollToTop()}>
           <div className={styles.logoWrapper}>
             <img className={styles.logo} src={logo} alt="logo"/>
-            {/* <Typography>Anthony Achit</Typography> */}
           </div>
         </Button>
         <div className={styles.buttonsWrapper}>
@@ -28,23 +26,34 @@ export default function Header () {
             <Link className={styles.link} activeClass={styles.linkActive}
                 to="education"
                 spy={true}
-                smooth={true}
+                smooth={SCROLL_ANIMATION}
                 offset={SCROLL_OFFSET}
                 duration={SCROLL_DURATION}>
                 EDUCATION
             </Link>
+
             <Link className={styles.link} activeClass={styles.linkActive}
                 to="experience"
                 spy={true}
-                smooth={true}
+                smooth={SCROLL_ANIMATION}
                 offset={SCROLL_OFFSET}
                 duration={SCROLL_DURATION}>
                 EXPERIENCE
             </Link>
+
+            <Link className={styles.link} activeClass={styles.linkActive}
+                to="skills"
+                spy={true}
+                smooth={SCROLL_ANIMATION}
+                offset={SCROLL_OFFSET}
+                duration={SCROLL_DURATION}>
+                SKILLS
+            </Link>
+
             <Link className={styles.link} activeClass={styles.linkActive}
                 to="contact"
                 spy={true}
-                smooth={true}
+                smooth={SCROLL_ANIMATION}
                 offset={SCROLL_OFFSET}
                 duration={SCROLL_DURATION}>
                 CONTACT

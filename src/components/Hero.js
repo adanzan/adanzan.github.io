@@ -26,6 +26,7 @@ export default function Hero () {
         </div>
         <h1>Achit-Erdene</h1>
         <p className={styles.brief}>I am a recent graduate Software Developer based in Massachusetts.</p>
+        {/* ᠳᠠᠨᠽᠠᠨ ᠠᠴᠢᠲ ᠡᠷᠳᠡᠨᠡ */}
       </div>
       <img className={styles.image} src={portrait} alt="Me"/>
     </div>

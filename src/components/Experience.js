@@ -28,7 +28,7 @@ export default function Experience () {
 
   return (
     <div id="experience" className={styles.Experience}>
-        <h2>Work Experience</h2>
+        <h2>EXPERIENCE</h2>
         <div className={styles.snippets}>
             {experienceSnippets}
         </div>

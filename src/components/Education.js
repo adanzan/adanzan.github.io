@@ -14,7 +14,7 @@ export default function Education () {
 
     return (
         <div id="education" className={styles.Education}>
-            <h2>Education</h2>
+            <h2>EDUCATION</h2>
             <EducationSnippet name='Middlebury College'
                                 degree={`B.A. in Computer Science,
                                          \n     Minor in Russian Language`}

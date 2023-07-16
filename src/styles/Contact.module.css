@@ -5,7 +5,8 @@
 .columns {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    column-gap: 150px;
+    justify-content: center;
     padding-top: 10%;
     padding-bottom: 10%;
 }

@@ -1,5 +1,3 @@
-//TODO: Check out MUI Slider
-
 import * as React from 'react'
 
 import '../styles/App.css'
@@ -7,7 +5,10 @@ import Header from './Header'
 import Hero from './Hero'
 import Experience from './Experience'
 import Education from './Education'
+import Skills from './Skills'
 import Contact from './Contact'
+
+//TODO: Check out MUI Slider
 
 export default function App () {
   return (
@@ -16,6 +17,7 @@ export default function App () {
       <Hero/>
       <Education/>
       <Experience/>
+      <Skills/>
       <Contact/>
     </div>
   )
