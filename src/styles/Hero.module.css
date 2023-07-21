@@ -29,7 +29,7 @@ h1 {
     animation-delay: 0.5s;
 }
 .firstNameLeft {
-    /* For spacing between the two first names*/
+    /* TODO: Add normal space and use pre-line etc */
     padding-right: 1rem;
 }
 .firstNameLeft, .firstNameLeft:hover, 

@@ -10,11 +10,6 @@
 /* TODO: Remove if not adding name */
 .logoWrapper {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* margin: auto; */
-    /*flex-wrap: wrap;
-    column-gap: 20px;
-    justify-content: left; */
 }
 .logo {
     width: 50px;
@@ -23,28 +18,16 @@
 .buttonsWrapper {
     flex-grow: 1;
     margin-left: -88px;
-    /* margin-left: 20%;
-    margin-right: 40%; */
     align-items: center;
-    /* display: flex;
-    justify-content: center; */
 }
 .buttons {
     display: flex;
     justify-content: center;
     column-gap: 4rem;
-
-    /* justify-content: ; */
-    /* justify-content: right; */
-    /* color: red; */
 }
 .link {
     align-self: center;
     cursor: pointer;
     color: white;
 
-}
-.linkActive {
-    /* Disabled, since Contact was not being underlined due to small size */
-    /* border-bottom: 1px solid #333; */
 }
