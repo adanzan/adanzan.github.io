@@ -1,6 +1,6 @@
 # Personal Website  
 ![Build and Deployment](https://github.com/adanzan/adanzan.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)  
-My portfolio website built using React. 
+My portfolio website built using React and MUI. 
 > Work-in-progress  
 
 ## Technologies Used
