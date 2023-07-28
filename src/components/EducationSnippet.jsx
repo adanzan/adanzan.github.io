@@ -57,7 +57,7 @@ EducationSnippet.propTypes = {
 	degree: PropTypes.string.isRequired,
 	dateRange: PropTypes.string.isRequired,
 	location: PropTypes.string.isRequired,
-	logo: PropTypes.element.isRequired,
+	logo: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
 	gpa: PropTypes.string.isRequired,
 	achievements: PropTypes.arrayOf(

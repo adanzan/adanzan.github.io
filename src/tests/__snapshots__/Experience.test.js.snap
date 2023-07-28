@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Experience"
+        id="experience"
+      >
+        <h2>
+          EXPERIENCE
+        </h2>
+        <div
+          class="snippets"
+        >
+          <div
+            class="ExperienceSnippet"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+            >
+              <div
+                class="org"
+              >
+                <a
+                  href="https://www.associatedenvironmentalsystems.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Associated Environmental Systems logo"
+                    class="logo"
+                    src="aesLogo.png"
+                  />
+                </a>
+                <div
+                  class="nameLocationWrapper"
+                >
+                  <div
+                    class="nameLocation"
+                  >
+                    <a
+                      class="name"
+                      href="https://www.associatedenvironmentalsystems.com/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <h3>
+                        Associated Environmental Systems
+                      </h3>
+                    </a>
+                    <p
+                      class="location"
+                    >
+                      Acton, MA
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="detailsWrapper"
+              >
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Market Response Representative
+                    </strong>
+                  </p>
+                  <p>
+                    April 2023 - Present
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ExperienceSnippet"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+            >
+              <div
+                class="org"
+              >
+                <a
+                  href="https://agula.mn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Agula Insurance logo"
+                    class="logo"
+                    src="agulaLogo.jpeg"
+                  />
+                </a>
+                <div
+                  class="nameLocationWrapper"
+                >
+                  <div
+                    class="nameLocation"
+                  >
+                    <a
+                      class="name"
+                      href="https://agula.mn/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <h3>
+                        Agula Insurance
+                      </h3>
+                    </a>
+                    <p
+                      class="location"
+                    >
+                      Ulaanbaatar, Mongolia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="detailsWrapper"
+              >
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Junior Software Engineer
+                    </strong>
+                  </p>
+                  <p>
+                    Mar 2021 - Jul 2021
+                  </p>
+                </div>
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Software Engineer Intern
+                    </strong>
+                  </p>
+                  <p>
+                    Nov 2020 - Mar 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ExperienceSnippet"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+            >
+              <div
+                class="org"
+              >
+                <a
+                  href="https://www.middlebury.edu/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Middlebury College logo"
+                    class="logo"
+                    src="middleburyLogo.png"
+                  />
+                </a>
+                <div
+                  class="nameLocationWrapper"
+                >
+                  <div
+                    class="nameLocation"
+                  >
+                    <a
+                      class="name"
+                      href="https://www.middlebury.edu/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <h3>
+                        Middlebury College
+                      </h3>
+                    </a>
+                    <p
+                      class="location"
+                    >
+                      Middlebury, VT
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="detailsWrapper"
+              >
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Curriculum Development Assistant
+                    </strong>
+                  </p>
+                  <p>
+                    Aug 2022 - Sep 2022
+                  </p>
+                </div>
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Computer Science Tutor
+                    </strong>
+                  </p>
+                  <p>
+                    Feb 2022 - May 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ExperienceSnippet"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+            >
+              <div
+                class="org"
+              >
+                <a
+                  href="https://www.facebook.com/KidsCodeAcademyMongolia/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Kids Code Academy logo"
+                    class="logo"
+                    src="kidsCodeAcademyLogo.png"
+                  />
+                </a>
+                <div
+                  class="nameLocationWrapper"
+                >
+                  <div
+                    class="nameLocation"
+                  >
+                    <a
+                      class="name"
+                      href="https://www.facebook.com/KidsCodeAcademyMongolia/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <h3>
+                        Kids Code Academy
+                      </h3>
+                    </a>
+                    <p
+                      class="location"
+                    >
+                      Ulaanbaatar, Mongolia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="detailsWrapper"
+              >
+                <div
+                  class="position"
+                >
+                  <p>
+                     
+                    <strong>
+                      Coding Instructor
+                    </strong>
+                  </p>
+                  <p>
+                    Jul 2019 - Aug 2019
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Experience"
+      id="experience"
+    >
+      <h2>
+        EXPERIENCE
+      </h2>
+      <div
+        class="snippets"
+      >
+        <div
+          class="ExperienceSnippet"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+          >
+            <div
+              class="org"
+            >
+              <a
+                href="https://www.associatedenvironmentalsystems.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Associated Environmental Systems logo"
+                  class="logo"
+                  src="aesLogo.png"
+                />
+              </a>
+              <div
+                class="nameLocationWrapper"
+              >
+                <div
+                  class="nameLocation"
+                >
+                  <a
+                    class="name"
+                    href="https://www.associatedenvironmentalsystems.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <h3>
+                      Associated Environmental Systems
+                    </h3>
+                  </a>
+                  <p
+                    class="location"
+                  >
+                    Acton, MA
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="detailsWrapper"
+            >
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Market Response Representative
+                  </strong>
+                </p>
+                <p>
+                  April 2023 - Present
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ExperienceSnippet"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+          >
+            <div
+              class="org"
+            >
+              <a
+                href="https://agula.mn/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Agula Insurance logo"
+                  class="logo"
+                  src="agulaLogo.jpeg"
+                />
+              </a>
+              <div
+                class="nameLocationWrapper"
+              >
+                <div
+                  class="nameLocation"
+                >
+                  <a
+                    class="name"
+                    href="https://agula.mn/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <h3>
+                      Agula Insurance
+                    </h3>
+                  </a>
+                  <p
+                    class="location"
+                  >
+                    Ulaanbaatar, Mongolia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="detailsWrapper"
+            >
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Junior Software Engineer
+                  </strong>
+                </p>
+                <p>
+                  Mar 2021 - Jul 2021
+                </p>
+              </div>
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Software Engineer Intern
+                  </strong>
+                </p>
+                <p>
+                  Nov 2020 - Mar 2021
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ExperienceSnippet"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+          >
+            <div
+              class="org"
+            >
+              <a
+                href="https://www.middlebury.edu/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Middlebury College logo"
+                  class="logo"
+                  src="middleburyLogo.png"
+                />
+              </a>
+              <div
+                class="nameLocationWrapper"
+              >
+                <div
+                  class="nameLocation"
+                >
+                  <a
+                    class="name"
+                    href="https://www.middlebury.edu/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <h3>
+                      Middlebury College
+                    </h3>
+                  </a>
+                  <p
+                    class="location"
+                  >
+                    Middlebury, VT
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="detailsWrapper"
+            >
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Curriculum Development Assistant
+                  </strong>
+                </p>
+                <p>
+                  Aug 2022 - Sep 2022
+                </p>
+              </div>
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Computer Science Tutor
+                  </strong>
+                </p>
+                <p>
+                  Feb 2022 - May 2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ExperienceSnippet"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+          >
+            <div
+              class="org"
+            >
+              <a
+                href="https://www.facebook.com/KidsCodeAcademyMongolia/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Kids Code Academy logo"
+                  class="logo"
+                  src="kidsCodeAcademyLogo.png"
+                />
+              </a>
+              <div
+                class="nameLocationWrapper"
+              >
+                <div
+                  class="nameLocation"
+                >
+                  <a
+                    class="name"
+                    href="https://www.facebook.com/KidsCodeAcademyMongolia/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <h3>
+                      Kids Code Academy
+                    </h3>
+                  </a>
+                  <p
+                    class="location"
+                  >
+                    Ulaanbaatar, Mongolia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="detailsWrapper"
+            >
+              <div
+                class="position"
+              >
+                <p>
+                   
+                  <strong>
+                    Coding Instructor
+                  </strong>
+                </p>
+                <p>
+                  Jul 2019 - Aug 2019
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
