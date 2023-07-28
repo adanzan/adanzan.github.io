@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
+exports[`App component matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1195,7 +1195,8 @@ Object {
             >
               <a
                 class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-jh47zj-MuiButtonBase-root-MuiButton-root"
-                download=""
+                data-testid="resumeDownload"
+                download="Anthony_Achit-Erdene_Resume.pdf"
                 href="./Anthony_Achit-Erdene_Resume.pdf"
                 tabindex="0"
               >
@@ -2401,7 +2402,8 @@ Object {
           >
             <a
               class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-jh47zj-MuiButtonBase-root-MuiButton-root"
-              download=""
+              data-testid="resumeDownload"
+              download="Anthony_Achit-Erdene_Resume.pdf"
               href="./Anthony_Achit-Erdene_Resume.pdf"
               tabindex="0"
             >

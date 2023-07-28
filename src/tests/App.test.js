@@ -4,7 +4,9 @@ import { render } from "@testing-library/react";
 
 import App from "../components/App"; 
 
-test("matches snapshot", () => {
-  const screenshotApp = render(<App />);
-  expect(screenshotApp).toMatchSnapshot();
+describe("App component", () => {
+	test("matches snapshot", () => {
+		const screenshotApp = render(<App />);
+		expect(screenshotApp).toMatchSnapshot();
+	});
 });
