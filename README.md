@@ -7,5 +7,6 @@ My portfolio website built using React.
 - Javascript
 - CSS  
 - React
+- Jest
 - MUI
 
