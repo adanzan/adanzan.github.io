@@ -13,11 +13,11 @@ import Paper from "@mui/material/Paper";
 import styles from "../styles/Snippet.module.css";
 
 export default function ExperienceSnippet({
-	name, location, logo, link, positions,
+	name, location, logo, link, positions
 }) {
 	// Creates an element for each position in the organization
 	const positionElement = positions.map((position) => (
-		<div className={styles.position}>
+		<div className={styles.position} key={position.name}>
 			<p>
 				{" "}
 				<strong>{position.name}</strong>
@@ -53,10 +53,10 @@ export default function ExperienceSnippet({
 ExperienceSnippet.propTypes = {
 	name: PropTypes.string.isRequired,
 	location: PropTypes.string.isRequired,
-	logo: PropTypes.element.isRequired,
+	logo: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
 	positions: PropTypes.arrayOf(
-		PropTypes.objectOf({
+		PropTypes.shape({
 			name: PropTypes.string.isRequired,
 			dateRange: PropTypes.string.isRequired,
 		}),
