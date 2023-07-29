@@ -16,7 +16,7 @@ describe("Skills component", () => {
 	test("has title", () => {
 		expect(testRender.getByText("SKILLS"));
 	});
-	describe("correctly displays", () => {
+	describe("displays", () => {
 		test("section titles", () => {
 			expect(testRender.getByText(/Programming.*Languages/));
 			expect(testRender.getByText("Tools"));

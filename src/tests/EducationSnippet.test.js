@@ -23,7 +23,7 @@ describe("EducationSnippet component", () => {
 		expect(testRender).toMatchSnapshot();
 	});
 
-	describe("correctly displays", () => {
+	describe("displays", () => {
 		test("name", () => {
 			expect(testRender.getByRole("heading", "name")).toContainHTML("testName");
 		});

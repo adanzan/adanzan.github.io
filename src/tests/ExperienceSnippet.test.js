@@ -20,7 +20,7 @@ describe("ExperienceSnippet component", () => {
 	test("matches snapshot", () => {
 		expect(testRender).toMatchSnapshot();
 	});
-	describe("correctly displays", () => {
+	describe("displays", () => {
 		test("name", () => {
 			expect(testRender.getByRole("heading", "name")).toContainHTML("testName");
 		});

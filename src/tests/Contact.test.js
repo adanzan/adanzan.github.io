@@ -15,7 +15,7 @@ describe("Contact component", () => {
 	test("matches snapshot", () => {
 		expect(testRender).toMatchSnapshot();
 	});
-	describe("has", () => {
+	describe("displays", () => {
 		test("title", () => {
 			expect(testRender.getByText("CONTACT"));
 		});
