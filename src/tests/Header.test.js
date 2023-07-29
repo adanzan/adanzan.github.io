@@ -6,7 +6,7 @@ import Header from "../components/Header";
 
 let testRender;
 
-describe("Hero component", () => {
+describe("Header component", () => {
 	beforeEach(() => {
 		testRender = render(<Header />);
 	});
@@ -17,7 +17,7 @@ describe("Hero component", () => {
 		test("logo", () => {
 			expect(testRender.getByRole("img", "logo"));
 		});
-		test("titles", () => {
+		test("menu items", () => {
 			expect(testRender.getByText("EDUCATION"));
 			expect(testRender.getByText("EXPERIENCE"));
 			expect(testRender.getByText("SKILLS"));
