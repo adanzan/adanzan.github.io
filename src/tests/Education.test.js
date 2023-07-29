@@ -4,7 +4,16 @@ import { render } from "@testing-library/react";
 
 import Education from "../components/Education"; 
 
-test("matches snapshot", () => {
-  const screenshotApp = render(<Education />);
-  expect(screenshotApp).toMatchSnapshot();
+let testRender;
+
+describe(("Education component"), () => {
+	beforeEach(() => {
+		testRender = render(<Education />);
+	});
+	test("matches snapshot", () => {
+		expect(testRender).toMatchSnapshot();
+	});
+	test("has title", () => {
+		expect(testRender.getByText("EDUCATION"));
+	});
 });
