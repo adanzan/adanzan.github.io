@@ -4,7 +4,16 @@ import { render } from "@testing-library/react";
 
 import Experience from "../components/Experience"; 
 
-test("matches snapshot", () => {
-  const screenshotApp = render(<Experience />);
-  expect(screenshotApp).toMatchSnapshot();
+let testRender;
+
+describe("Experience component", () => {
+	beforeEach(() => {
+		testRender = render(<Experience />);
+	});
+	test("matches snapshot", () => {
+		expect(testRender).toMatchSnapshot();
+	});
+	test("has title", () => {
+		expect(testRender.getByText("EXPERIENCE"));
+	});
 });
