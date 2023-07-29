@@ -6,7 +6,7 @@ import {
 	BiSolidFileCss, BiSolidFileHtml,
 	BiLogoReact, BiLogoJava, BiLogoGit,
 	BiLogoGithub, BiLogoFirebase, BiRun,
-	BiLogoCPlusPlus,
+	BiLogoCPlusPlus, BiTestTube
 } from "react-icons/bi";
 import { TbLetterC } from "react-icons/tb";
 import { FaLinux, FaPeopleCarry } from "react-icons/fa";
@@ -30,35 +30,35 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoJavascript color="green" size="4rem" />
+							<BiLogoJavascript color="green" size="4rem" title="Javascript logo" />
 							{" "}
 							JavaScript
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoPython color="green" size="4rem" />
+							<BiLogoPython color="green" size="4rem" title="Python logo" />
 							{" "}
 							Python
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoJava color="orange" size="4rem" />
+							<BiLogoJava color="orange" size="4rem" title="Java logo" />
 							{" "}
 							Java
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<TbLetterC color="orange" size="4rem" />
+							<TbLetterC color="orange" size="4rem" title="C logo" />
 							{" "}
 							C
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoCPlusPlus color="orange" size="4rem" />
+							<BiLogoCPlusPlus color="orange" size="4rem" title="C++ logo" />
 							{" "}
 							C++
 							{" "}
@@ -71,28 +71,28 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoGit color="green" size="4rem" />
+							<BiLogoGit color="green" size="4rem" title="Git logo" />
 							{" "}
               Git
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoGithub color="green" size="4rem" />
+							<BiLogoGithub color="green" size="4rem" title="Github logo" />
 							{" "}
               GitHub
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<FaLinux color="green" size="4rem" />
+							<FaLinux color="green" size="4rem" title="Linux logo" />
 							{" "}
               Linux/Unix
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoFirebase color="orange" size="4rem" />
+							<BiLogoFirebase color="orange" size="4rem" title="Firebase logo" />
 							{" "}
               Firebase
 							{" "}
@@ -109,21 +109,28 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoReact color="green" size="4rem" />
+							<BiLogoReact color="green" size="4rem" title="React logo"/>
 							{" "}
               React
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiSolidFileHtml color="orange" size="4rem" />
+							<BiTestTube color="green" size="4rem" title="Jest logo"/>
+							{" "}
+              Jest
+							{" "}
+						</div>
+						<div className={styles.icon}>
+							{" "}
+							<BiSolidFileHtml color="green" size="4rem" title="HTML logo" />
 							{" "}
               HTML
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiSolidFileCss color="orange" size="4rem" />
+							<BiSolidFileCss color="green" size="4rem" title="CSS logo" />
 							{" "}
               CSS
 							{" "}
@@ -136,37 +143,37 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<VscDebugConsole size="3rem" />
-							{" "}
-              Debugging
-							{" "}
-						</div>
-						<div className={styles.icon}>
-							{" "}
-							<LiaChalkboardTeacherSolid size="3rem" />
-							{" "}
-              Teaching
-							{" "}
-						</div>
-						<div className={styles.icon}>
-							{" "}
-							<BiRun size="3rem" />
+							<BiRun size="3rem" title="Agile" />
 							{" "}
               Agile
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<FaPeopleCarry size="3rem" />
+							<FaPeopleCarry size="3rem" title="Teamwork" />
 							{" "}
               Teamwork
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<GiTeamIdea size="3rem" />
+							<GiTeamIdea size="3rem" title="Leadership" />
 							{" "}
               Leadership
+							{" "}
+						</div>
+						<div className={styles.icon}>
+							{" "}
+							<VscDebugConsole size="3rem" title="Debugging" />
+							{" "}
+              Debugging
+							{" "}
+						</div>
+						<div className={styles.icon}>
+							{" "}
+							<LiaChalkboardTeacherSolid size="3rem" title="Teaching" />
+							{" "}
+              Teaching
 							{" "}
 						</div>
 					</div>
