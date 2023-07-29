@@ -4,17 +4,31 @@ import { render } from "@testing-library/react";
 
 import ExperienceSnippet from "../components/ExperienceSnippet"; 
 
-const screenshotApp = render(<ExperienceSnippet 
-    name={"testName"} 
-    location={"testLocation"} 
-    logo={"testLogo"} 
-    link={"testLink"} 
-    positions={[{name: "testName1", dateRange: "testDateRange1"}, 
-                {name: "testName2", dateRange: "testDateRange2"}]}
-              />);
+let testRender;
 
-test("matches snapshot", () => {
-  expect(screenshotApp).toMatchSnapshot();
-    // TODO: Expect these to match the rendered object
-
+describe("ExperienceSnippet component", () => {
+	beforeEach(() => {
+		testRender = render(<ExperienceSnippet 
+			name={"testName"} 
+			location={"testLocation"} 
+			logo={"testLogo"} 
+			link={"testLink"} 
+			positions={[{name: "testName1", dateRange: "testDateRange1"}, 
+				{name: "testName2", dateRange: "testDateRange2"}]}
+		/>);
+	});
+	test("matches snapshot", () => {
+		expect(testRender).toMatchSnapshot();
+	});
+	describe("correctly displays", () => {
+		test("name", () => {
+			expect(testRender.getByRole("heading", "name")).toContainHTML("testName");
+		});
+		test("positions", () => {
+			expect(testRender.getByText("testName1"));
+			expect(testRender.getByText("testDateRange2"));
+		});
+	});
 });
+		
+		
