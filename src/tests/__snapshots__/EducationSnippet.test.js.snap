@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
+exports[`EducationSnippet component matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -79,7 +79,10 @@ Object {
               </p>
               <p>
                 <li>
-                  testAchievement1, testAchievement2
+                  testAchievement1
+                </li>
+                <li>
+                  testAchievement2
                 </li>
               </p>
             </div>
@@ -163,7 +166,10 @@ Object {
             </p>
             <p>
               <li>
-                testAchievement1, testAchievement2
+                testAchievement1
+              </li>
+              <li>
+                testAchievement2
               </li>
             </p>
           </div>
