@@ -15,21 +15,21 @@ export default function Header() {
 			<div className={styles.columns}>
 				<div className={styles.icons}>
 					<IconButton href="https://www.linkedin.com/in/anthony-achiterdene/" target="_blank" size="large">
-						<BiLogoLinkedinSquare color="white" fontSize="4.5rem" />
+						<BiLogoLinkedinSquare color="white" fontSize="4.5rem" title="Linkedin logo" />
 					</IconButton>
 					<IconButton href="https://github.com/adanzan" target="_blank" size="large">
-						<BiLogoGithub color="white" fontSize="4.5rem" />
+						<BiLogoGithub color="white" fontSize="4.5rem" title="Github logo" />
 					</IconButton>
 					<IconButton href="mailto:danzanachiterdene@gmail.com" target="_blank" size="large">
-						<MdOutlineEmail color="white" fontSize="4.5rem" />
+						<MdOutlineEmail color="white" fontSize="4.5rem" title="Email icon" />
 					</IconButton>
 					<IconButton href="https://www.instagram.com/a_danzan/" target="_blank" size="large">
-						<BiLogoInstagram color="white" fontSize="4.5rem" />
+						<BiLogoInstagram color="white" fontSize="4.5rem" title="Instagram logo" />
 					</IconButton>
 				</div>
 				<div className={styles.resumeDownload}>
 					{/* TODO: add format choices - word and pdf */}
-					<Button size="large" variant="contained" href="./Anthony_Achit-Erdene_Resume.pdf" download>
+					<Button size="large" variant="contained" href="./Anthony_Achit-Erdene_Resume.pdf" download="Anthony_Achit-Erdene_Resume.pdf" data-testid="resumeDownload">
             Download resume
 					</Button>
 				</div>
