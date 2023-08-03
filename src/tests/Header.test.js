@@ -21,6 +21,7 @@ describe("Header component", () => {
 			expect(testRender.getByText("EDUCATION"));
 			expect(testRender.getByText("EXPERIENCE"));
 			expect(testRender.getByText("SKILLS"));
+			expect(testRender.getByText("PROJECTS"));
 			expect(testRender.getByText("CONTACT"));
 		});
 	});

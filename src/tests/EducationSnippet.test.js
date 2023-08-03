@@ -27,7 +27,7 @@ describe("EducationSnippet component", () => {
 		test("name", () => {
 			expect(testRender.getByRole("heading", "name")).toContainHTML("testName");
 		});
-		test("testGpa", () => {
+		test("gpa", () => {
 			expect(testRender.getByText("testGpa"));
 		});
 		test("achievements", () => {

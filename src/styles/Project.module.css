@@ -1,0 +1,5 @@
+.projectCards {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+}

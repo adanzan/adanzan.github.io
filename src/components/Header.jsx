@@ -57,6 +57,18 @@ export default function Header() {
 						>
               SKILLS
 						</Link>
+						
+						<Link
+							className={styles.link}
+							activeClass={styles.linkActive}
+							to="projects"
+							spy
+							smooth={SCROLL_ANIMATION}
+							offset={SCROLL_OFFSET}
+							duration={SCROLL_DURATION}
+						>
+              PROJECTS
+						</Link>
 
 						<Link
 							className={styles.link}

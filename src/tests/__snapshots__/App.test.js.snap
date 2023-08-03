@@ -56,6 +56,11 @@ Object {
                 <a
                   class="link"
                 >
+                  PROJECTS
+                </a>
+                <a
+                  class="link"
+                >
                   CONTACT
                 </a>
               </div>
@@ -566,6 +571,67 @@ Object {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="projects"
+        >
+          <h2>
+            PROJECTS
+          </h2>
+          <div
+            class="projectCards"
+          >
+            <div
+              class="ProjectCard"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <h3>
+                  Workout Planner
+                </h3>
+                <p>
+                  description
+                </p>
+                <a
+                  href="link"
+                >
+                  <img
+                    alt="Workout Planner"
+                    src="image"
+                  />
+                </a>
+                <p>
+                  tech
+                </p>
+              </div>
+            </div>
+            <div
+              class="ProjectCard"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <h3>
+                  Personal Website
+                </h3>
+                <p>
+                  description
+                </p>
+                <a
+                  href="link"
+                >
+                  <img
+                    alt="Personal Website"
+                    src="image"
+                  />
+                </a>
+                <p>
+                  tech
+                </p>
               </div>
             </div>
           </div>
@@ -1352,6 +1418,11 @@ Object {
               <a
                 class="link"
               >
+                PROJECTS
+              </a>
+              <a
+                class="link"
+              >
                 CONTACT
               </a>
             </div>
@@ -1862,6 +1933,67 @@ Object {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="projects"
+      >
+        <h2>
+          PROJECTS
+        </h2>
+        <div
+          class="projectCards"
+        >
+          <div
+            class="ProjectCard"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+            >
+              <h3>
+                Workout Planner
+              </h3>
+              <p>
+                description
+              </p>
+              <a
+                href="link"
+              >
+                <img
+                  alt="Workout Planner"
+                  src="image"
+                />
+              </a>
+              <p>
+                tech
+              </p>
+            </div>
+          </div>
+          <div
+            class="ProjectCard"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+            >
+              <h3>
+                Personal Website
+              </h3>
+              <p>
+                description
+              </p>
+              <a
+                href="link"
+              >
+                <img
+                  alt="Personal Website"
+                  src="image"
+                />
+              </a>
+              <p>
+                tech
+              </p>
             </div>
           </div>
         </div>

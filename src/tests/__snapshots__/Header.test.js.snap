@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hero component matches snapshot 1`] = `
+exports[`Header component matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -49,6 +49,11 @@ Object {
                 class="link"
               >
                 SKILLS
+              </a>
+              <a
+                class="link"
+              >
+                PROJECTS
               </a>
               <a
                 class="link"
@@ -106,6 +111,11 @@ Object {
               class="link"
             >
               SKILLS
+            </a>
+            <a
+              class="link"
+            >
+              PROJECTS
             </a>
             <a
               class="link"

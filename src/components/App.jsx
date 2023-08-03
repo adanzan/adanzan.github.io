@@ -6,6 +6,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Experience from "./Experience";
 import Education from "./Education";
+import Project from "./Project";
 import Skills from "./Skills";
 import Contact from "./Contact";
 
@@ -16,6 +17,7 @@ export default function App() {
 			<Hero />
 			<Education />
 			<Experience />
+			<Project />
 			<Skills />
 			<Contact />
 		</div>

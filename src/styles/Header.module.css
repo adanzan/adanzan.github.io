@@ -1,9 +1,9 @@
 .appBar {
-    background-color: white;
+    /* background-color: white; */
     flex-wrap: wrap;
 }
 .toolbar {
-    background-color: #7e6fa4;
+    background-color: white;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -28,6 +28,6 @@
 .link {
     align-self: center;
     cursor: pointer;
-    color: white;
+    /* color: blue; */
 
 }
