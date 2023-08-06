@@ -19,8 +19,9 @@ describe("Project component", () => {
 		test("title", () => {
 			expect(testRender.getByText(/PROJECTS/));
 		});
-		test.skip("projects", () => {
-			expect(testRender.getByText(""));
+		test("hardcoded project names", () => {
+			expect(testRender.getByText(/Workout Planner/));
+			expect(testRender.getByText(/Proficiency Tracker/));
 		});
 	});
 	test("contains information from json", () => {

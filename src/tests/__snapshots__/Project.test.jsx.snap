@@ -17,52 +17,60 @@ Object {
           <div
             class="ProjectCard"
           >
-            <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+            <a
+              href="https://github.com/adanzan/workout-planner"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <h3>
-                Workout Planner
-              </h3>
-              <p>
-                description
-              </p>
-              <a
-                href="link"
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
-                <img
-                  alt="Workout Planner"
-                  src="image"
-                />
-              </a>
-              <p>
-                tech
-              </p>
-            </div>
+                <div
+                  class="card"
+                >
+                  <h3>
+                    Workout Planner
+                  </h3>
+                  <p
+                    class="description"
+                  >
+                    A workout planner with a GUI.
+                  </p>
+                  <p>
+                    C++, QT
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
           <div
             class="ProjectCard"
           >
-            <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+            <a
+              href="https://github.com/adanzan/proficiency-tracker"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <h3>
-                Personal Website
-              </h3>
-              <p>
-                description
-              </p>
-              <a
-                href="link"
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
-                <img
-                  alt="Personal Website"
-                  src="image"
-                />
-              </a>
-              <p>
-                tech
-              </p>
-            </div>
+                <div
+                  class="card"
+                >
+                  <h3>
+                    Proficiency Tracker
+                  </h3>
+                  <p
+                    class="description"
+                  >
+                    A proficiency tracker for use in a classroom.
+                  </p>
+                  <p>
+                    React.js, Next.js, Firebase
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -81,52 +89,60 @@ Object {
         <div
           class="ProjectCard"
         >
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          <a
+            href="https://github.com/adanzan/workout-planner"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <h3>
-              Workout Planner
-            </h3>
-            <p>
-              description
-            </p>
-            <a
-              href="link"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
             >
-              <img
-                alt="Workout Planner"
-                src="image"
-              />
-            </a>
-            <p>
-              tech
-            </p>
-          </div>
+              <div
+                class="card"
+              >
+                <h3>
+                  Workout Planner
+                </h3>
+                <p
+                  class="description"
+                >
+                  A workout planner with a GUI.
+                </p>
+                <p>
+                  C++, QT
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
         <div
           class="ProjectCard"
         >
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          <a
+            href="https://github.com/adanzan/proficiency-tracker"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <h3>
-              Personal Website
-            </h3>
-            <p>
-              description
-            </p>
-            <a
-              href="link"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
             >
-              <img
-                alt="Personal Website"
-                src="image"
-              />
-            </a>
-            <p>
-              tech
-            </p>
-          </div>
+              <div
+                class="card"
+              >
+                <h3>
+                  Proficiency Tracker
+                </h3>
+                <p
+                  class="description"
+                >
+                  A proficiency tracker for use in a classroom.
+                </p>
+                <p>
+                  React.js, Next.js, Firebase
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

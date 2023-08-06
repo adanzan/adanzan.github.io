@@ -8,18 +8,19 @@ import { Card } from "@mui/material";
 import styles from "../styles/ProjectCard.module.css";
 
 export default function ProjectCard({
-	name, description, image, technologies, link
+	name, description, technologies, link
 }) {
 	return(
 		<div className={styles.ProjectCard}>
-			<Card>
-				<h3>{name}</h3>
-				<p>{description}</p>
-				<a href={link}>
-					<img src={image} alt={name}/>
-				</a>
-				<p>{technologies}</p>
-			</Card>
+			<a href={link} target="_blank" rel="noopener noreferrer">
+				<Card>
+					<div className={styles.card}>
+						<h3>{name}</h3>
+						<p className={styles.description}>{description}</p>
+						<p>{technologies}</p>
+					</div>
+				</Card>
+			</a>
 		</div>
 	);
 }
@@ -27,6 +28,5 @@ export default function ProjectCard({
 ProjectCard.propTypes = {
 	name: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
-	image: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
 };

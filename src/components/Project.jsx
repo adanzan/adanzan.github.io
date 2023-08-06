@@ -13,7 +13,6 @@ export default function Project() {
 				key={project.name}
 				name={project.name} 
 				description={project.description}
-				image={project.image}
 				technologies={project.technologies}
 				link={project.link}
 			/>);

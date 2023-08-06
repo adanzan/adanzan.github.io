@@ -12,10 +12,12 @@ describe("ProjectCard component", () => {
 			<ProjectCard 
 				name="testName"
 				description="testDescription"
-				image="testImage"
 				technologies="testTechnologies"
 				link="testLink"
 			/>);
+	});
+	test("matches snapshot", () => {
+		expect(testRender).toMatchSnapshot();
 	});
 	describe("has", () => {
 		test("name", () => {
@@ -27,9 +29,6 @@ describe("ProjectCard component", () => {
 		test("link", () => {
 			expect(testRender.getByRole("link", "testLink"));
 		});
-		test("image", () => {
-			expect(testRender.getByRole("img", "testImage"));
-		}); 
 		test("technologies", () => {
 			expect(testRender.getByText("testTechnologies"));
 		});
