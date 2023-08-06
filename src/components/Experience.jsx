@@ -20,7 +20,6 @@ export default function Experience() {
 	// An array of all logos used in the experienceSnippets
 	const logos = [aesLogo, agulaLogo, middleburyLogo, kidsCodeAcademyLogo];
 	// Creates a ExperienceSnippet component for all workData entries
-	// TODO: Use json.parse() method
 	for (const index in workData) {
 		const work = workData[index];
 		experienceSnippets.push(<ExperienceSnippet
