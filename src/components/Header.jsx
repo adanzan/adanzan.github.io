@@ -13,7 +13,7 @@ export default function Header() {
 	const SCROLL_ANIMATION = "easeInOutCubic";
 
 	return (
-		<AppBar className={styles.appBar}>
+		<AppBar className={styles.appBar} elevation={1}>
 			<Toolbar className={styles.toolbar} variant="regular">
 				<Button onClick={() => scroll.scrollToTop()}>
 					<div className={styles.logoWrapper}>
@@ -49,6 +49,18 @@ export default function Header() {
 						<Link
 							className={styles.link}
 							activeClass={styles.linkActive}
+							to="projects"
+							spy
+							smooth={SCROLL_ANIMATION}
+							offset={SCROLL_OFFSET}
+							duration={SCROLL_DURATION}
+						>
+			PROJECTS
+						</Link>
+
+						<Link
+							className={styles.link}
+							activeClass={styles.linkActive}
 							to="skills"
 							spy
 							smooth={SCROLL_ANIMATION}
@@ -58,18 +70,6 @@ export default function Header() {
               SKILLS
 						</Link>
 						
-						<Link
-							className={styles.link}
-							activeClass={styles.linkActive}
-							to="projects"
-							spy
-							smooth={SCROLL_ANIMATION}
-							offset={SCROLL_OFFSET}
-							duration={SCROLL_DURATION}
-						>
-              PROJECTS
-						</Link>
-
 						<Link
 							className={styles.link}
 							activeClass={styles.linkActive}

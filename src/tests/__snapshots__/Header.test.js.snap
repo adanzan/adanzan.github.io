@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed appBar mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed appBar mui-fixed css-1jrbdul-MuiPaper-root-MuiAppBar-root"
       >
         <div
           class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular toolbar css-hyum1k-MuiToolbar-root"
@@ -48,12 +48,12 @@ Object {
               <a
                 class="link"
               >
-                SKILLS
+                PROJECTS
               </a>
               <a
                 class="link"
               >
-                PROJECTS
+                SKILLS
               </a>
               <a
                 class="link"
@@ -68,7 +68,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed appBar mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed appBar mui-fixed css-1jrbdul-MuiPaper-root-MuiAppBar-root"
     >
       <div
         class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular toolbar css-hyum1k-MuiToolbar-root"
@@ -110,12 +110,12 @@ Object {
             <a
               class="link"
             >
-              SKILLS
+              PROJECTS
             </a>
             <a
               class="link"
             >
-              PROJECTS
+              SKILLS
             </a>
             <a
               class="link"
