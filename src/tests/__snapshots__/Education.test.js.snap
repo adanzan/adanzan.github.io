@@ -115,7 +115,7 @@ Object {
                 <img
                   alt="Orchlon International Schoollogo"
                   class="logo"
-                  src="orchlon.png"
+                  src="orchlonLogo.png"
                 />
               </a>
               <div
@@ -296,7 +296,7 @@ Object {
               <img
                 alt="Orchlon International Schoollogo"
                 class="logo"
-                src="orchlon.png"
+                src="orchlonLogo.png"
               />
             </a>
             <div
