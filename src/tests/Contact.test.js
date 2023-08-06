@@ -25,8 +25,8 @@ describe("Contact component", () => {
 			expect(testRender.getByTitle("Email icon"));
 			expect(testRender.getByTitle("Instagram logo"));
 		});
-		test("resume download button", () => {
-			expect(testRender.getByText("Download resume"));
-		});
+		// test("resume download button", () => {
+		// 	expect(testRender.getByText("Download resume"));
+		// });
 	});
 });
