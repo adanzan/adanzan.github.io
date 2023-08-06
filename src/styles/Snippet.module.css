@@ -71,6 +71,7 @@ h4 {
 .details {
     display: inline-block;
     text-align: left;
+    width: 290px;
     margin: auto;
 }
 .detailsDegree {
