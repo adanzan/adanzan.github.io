@@ -70,7 +70,7 @@ export default function Header() {
               SKILLS
 						</Link>
 						
-						<Link
+						{/* <Link
 							className={styles.link}
 							activeClass={styles.linkActive}
 							to="contact"
@@ -80,7 +80,7 @@ export default function Header() {
 							duration={SCROLL_DURATION}
 						>
               CONTACT
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</Toolbar>

@@ -7,7 +7,7 @@ import projectData from "../resources/files/projectData.json";
 
 export default function Project() {
 	const projectCards = [];
-	projectData.map((project) => {
+	projectData.forEach((project) => {
 		projectCards.push(
 			<ProjectCard 
 				key={project.name}

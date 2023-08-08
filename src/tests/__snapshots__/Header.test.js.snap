@@ -55,11 +55,6 @@ Object {
               >
                 SKILLS
               </a>
-              <a
-                class="link"
-              >
-                CONTACT
-              </a>
             </div>
           </div>
         </div>
@@ -116,11 +111,6 @@ Object {
               class="link"
             >
               SKILLS
-            </a>
-            <a
-              class="link"
-            >
-              CONTACT
             </a>
           </div>
         </div>

@@ -13,7 +13,12 @@ export default function ProjectCard({
 	return(
 		<div className={styles.ProjectCard}>
 			<a href={link} target="_blank" rel="noopener noreferrer">
-				<Card>
+				<Card 
+					elevation={0}
+					sx={{
+						border: "1.5px solid orange", 
+						borderRadius: "1em"
+					}}>
 					<div className={styles.card}>
 						<h3>{name}</h3>
 						<p className={styles.description}>{description}</p>
