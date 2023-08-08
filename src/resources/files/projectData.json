@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Workout Planner",
+        "description": "A workout planner with a GUI.",
+        "technologies": "C++, QT",
+        "link": "https://github.com/adanzan/workout-planner"
+    },
+    {
+        "name": "Proficiency Tracker",
+        "description": "A proficiency tracker for use in a classroom.",
+        "technologies": "React.js, Next.js, Firebase",
+        "link": "https://github.com/adanzan/proficiency-tracker"
+    }
+]

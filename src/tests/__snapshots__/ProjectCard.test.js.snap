@@ -1,92 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hero component matches snapshot 1`] = `
+exports[`ProjectCard component matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Hero"
+        class="ProjectCard"
       >
-        <div
-          class="textSection"
+        <a
+          href="testLink"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          <h1>
-            Hello, I'm
-          </h1>
           <div
-            class="firstName"
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-m93ako-MuiPaper-root-MuiCard-root"
           >
-            <h1
-              class="firstNameLeft"
-              style="opacity: 1;"
+            <div
+              class="card"
             >
-              Anthony
-            </h1>
-            <h1
-              class="firstNameRight"
-              style="opacity: 1;"
-            >
-              Danzan
-            </h1>
+              <h3>
+                testName
+              </h3>
+              <p
+                class="description"
+              >
+                testDescription
+              </p>
+              <p>
+                testTechnologies
+              </p>
+            </div>
           </div>
-          <h1>
-            Achit-Erdene
-          </h1>
-          <p
-            class="brief"
-          >
-            I am a Software Developer based in Massachusetts.
-          </p>
-        </div>
-        <img
-          alt="Me"
-          class="image"
-          src="portrait.png"
-        />
+        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Hero"
+      class="ProjectCard"
     >
-      <div
-        class="textSection"
+      <a
+        href="testLink"
+        rel="noopener noreferrer"
+        target="_blank"
       >
-        <h1>
-          Hello, I'm
-        </h1>
         <div
-          class="firstName"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-m93ako-MuiPaper-root-MuiCard-root"
         >
-          <h1
-            class="firstNameLeft"
-            style="opacity: 1;"
+          <div
+            class="card"
           >
-            Anthony
-          </h1>
-          <h1
-            class="firstNameRight"
-            style="opacity: 1;"
-          >
-            Danzan
-          </h1>
+            <h3>
+              testName
+            </h3>
+            <p
+              class="description"
+            >
+              testDescription
+            </p>
+            <p>
+              testTechnologies
+            </p>
+          </div>
         </div>
-        <h1>
-          Achit-Erdene
-        </h1>
-        <p
-          class="brief"
-        >
-          I am a Software Developer based in Massachusetts.
-        </p>
-      </div>
-      <img
-        alt="Me"
-        class="image"
-        src="portrait.png"
-      />
+      </a>
     </div>
   </div>,
   "debug": [Function],

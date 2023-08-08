@@ -4,8 +4,6 @@
  * Features the details of an organization, along with the roles I worked as
 */
 
-// TODO: MUI Grid styling on logo and name so that it doesn't deform with rescaling
-
 import * as React from "react";
 import PropTypes from "prop-types";
 import Paper from "@mui/material/Paper";
@@ -28,7 +26,12 @@ export default function ExperienceSnippet({
 
 	return (
 		<div className={styles.ExperienceSnippet}>
-			<Paper className={styles.snippetPaper} elevation={+10}>
+			<Paper className={styles.snippetPaper} elevation={0}
+				sx={{
+					border: "1.5px solid orange", 
+					borderRadius: "1em"
+				}}>
+				
 				<div className={styles.org}>
 					<a href={link} target="_blank" rel="noopener noreferrer">
 						<img className={styles.logo} src={logo} alt={`${name} logo`} />

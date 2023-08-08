@@ -30,35 +30,35 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoJavascript color="green" size="4rem" title="Javascript logo" />
+							<BiLogoJavascript color="black" size="3rem" title="Javascript logo" />
 							{" "}
 							JavaScript
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoPython color="green" size="4rem" title="Python logo" />
+							<BiLogoPython color="black" size="3rem" title="Python logo" />
 							{" "}
 							Python
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoJava color="orange" size="4rem" title="Java logo" />
+							<BiLogoJava color="black" size="3rem" title="Java logo" />
 							{" "}
 							Java
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<TbLetterC color="orange" size="4rem" title="C logo" />
+							<TbLetterC color="black" size="3rem" title="C logo" />
 							{" "}
 							C
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoCPlusPlus color="orange" size="4rem" title="C++ logo" />
+							<BiLogoCPlusPlus color="black" size="3rem" title="C++ logo" />
 							{" "}
 							C++
 							{" "}
@@ -71,28 +71,28 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoGit color="green" size="4rem" title="Git logo" />
+							<BiLogoGit color="black" size="3rem" title="Git logo" />
 							{" "}
               Git
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoGithub color="green" size="4rem" title="Github logo" />
+							<BiLogoGithub color="black" size="3rem" title="Github logo" />
 							{" "}
               GitHub
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<FaLinux color="green" size="4rem" title="Linux logo" />
+							<FaLinux color="black" size="3rem" title="Linux logo" />
 							{" "}
               Linux/Unix
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoFirebase color="orange" size="4rem" title="Firebase logo" />
+							<BiLogoFirebase color="black" size="3rem" title="Firebase logo" />
 							{" "}
               Firebase
 							{" "}
@@ -109,28 +109,28 @@ export default function Skills() {
 					<div className={styles.icons}>
 						<div className={styles.icon}>
 							{" "}
-							<BiLogoReact color="green" size="4rem" title="React logo"/>
+							<BiLogoReact color="black" size="3rem" title="React logo"/>
 							{" "}
               React
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiTestTube color="green" size="4rem" title="Jest logo"/>
+							<BiTestTube color="black" size="3rem" title="Jest logo"/>
 							{" "}
               Jest
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiSolidFileHtml color="green" size="4rem" title="HTML logo" />
+							<BiSolidFileHtml color="black" size="3rem" title="HTML logo" />
 							{" "}
               HTML
 							{" "}
 						</div>
 						<div className={styles.icon}>
 							{" "}
-							<BiSolidFileCss color="green" size="4rem" title="CSS logo" />
+							<BiSolidFileCss color="black" size="3rem" title="CSS logo" />
 							{" "}
               CSS
 							{" "}

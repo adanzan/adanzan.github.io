@@ -16,7 +16,11 @@ export default function EducationSnippet({
 
 	return (
 		<div className={styles.EducationSnippet}>
-			<Paper className={styles.snippetPaper} elevation={+10}>
+			<Paper className={styles.snippetPaper} elevation={0}
+				sx={{
+					border: "1.5px solid orange", 
+					borderRadius: "1em"
+				}}>
 				<div className={styles.org}>
 					<a href={link} target="_blank" rel="noopener noreferrer">
 						<img className={styles.logo} src={logo} alt={`${name}logo`} />

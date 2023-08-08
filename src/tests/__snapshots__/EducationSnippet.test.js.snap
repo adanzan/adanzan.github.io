@@ -9,7 +9,7 @@ Object {
         class="EducationSnippet"
       >
         <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 snippetPaper css-1khjo2-MuiPaper-root"
         >
           <div
             class="org"
@@ -96,7 +96,7 @@ Object {
       class="EducationSnippet"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation10 snippetPaper css-14epxft-MuiPaper-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 snippetPaper css-1khjo2-MuiPaper-root"
       >
         <div
           class="org"

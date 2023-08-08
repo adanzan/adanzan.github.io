@@ -7,7 +7,7 @@ import styles from "../styles/Education.module.css";
 import EducationSnippet from "./EducationSnippet";
 
 import middleburyLogo from "../resources/images/middleburyLogo.png";
-import orchlonLogo from "../resources/images/orchlon.png";
+import orchlonLogo from "../resources/images/orchlonLogo.png";
 
 export default function Education() {
 	const middleburyAchievements = ["cum laude", "Computer Science Honors"];

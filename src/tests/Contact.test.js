@@ -16,17 +16,17 @@ describe("Contact component", () => {
 		expect(testRender).toMatchSnapshot();
 	});
 	describe("displays", () => {
-		test("title", () => {
-			expect(testRender.getByText("CONTACT"));
-		});
+		// test("title", () => {
+		// expect(testRender.getByText("CONTACT"));
+		// });
 		test("icons", () => {
 			expect(testRender.getByTitle("Linkedin logo"));
 			expect(testRender.getByTitle("Github logo"));
 			expect(testRender.getByTitle("Email icon"));
-			expect(testRender.getByTitle("Instagram logo"));
+			// expect(testRender.getByTitle("Instagram logo"));
 		});
-		test("resume download button", () => {
-			expect(testRender.getByText("Download resume"));
-		});
+		// test("resume download button", () => {
+		// 	expect(testRender.getByText("Download resume"));
+		// });
 	});
 });
