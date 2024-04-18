@@ -1,3 +1,8 @@
+.Project {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .projectCards {
     display: flex;
     flex-wrap: wrap;

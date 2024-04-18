@@ -6,6 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
+        class="Project"
         id="projects"
       >
         <h2>
@@ -78,6 +79,7 @@ Object {
   </body>,
   "container": <div>
     <div
+      class="Project"
       id="projects"
     >
       <h2>
