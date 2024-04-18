@@ -74,35 +74,25 @@ Object {
               <h1>
                 Hello, I'm
               </h1>
-              <div
-                class="firstName"
-              >
-                <h1
-                  class="firstNameLeft"
-                  style="opacity: 1;"
-                >
-                  Anthony
-                </h1>
-                <h1
-                  class="firstNameRight"
-                  style="opacity: 1;"
-                >
-                  Danzan
-                </h1>
-              </div>
+              <h1>
+                Anthony
+              </h1>
+              <h1>
+                Danzan
+              </h1>
               <h1>
                 Achit-Erdene
               </h1>
               <p
                 class="brief"
               >
-                I am a Software Developer based in Massachusetts.
+                I'm a Software Developer based in Boston, MA.
               </p>
             </div>
             <img
               alt="Me"
               class="image"
-              src="portrait.png"
+              src="me.jpeg"
             />
           </div>
           <div
@@ -574,6 +564,7 @@ Object {
             </div>
           </div>
           <div
+            class="Project"
             id="projects"
           >
             <h2>
@@ -1390,35 +1381,25 @@ Object {
             <h1>
               Hello, I'm
             </h1>
-            <div
-              class="firstName"
-            >
-              <h1
-                class="firstNameLeft"
-                style="opacity: 1;"
-              >
-                Anthony
-              </h1>
-              <h1
-                class="firstNameRight"
-                style="opacity: 1;"
-              >
-                Danzan
-              </h1>
-            </div>
+            <h1>
+              Anthony
+            </h1>
+            <h1>
+              Danzan
+            </h1>
             <h1>
               Achit-Erdene
             </h1>
             <p
               class="brief"
             >
-              I am a Software Developer based in Massachusetts.
+              I'm a Software Developer based in Boston, MA.
             </p>
           </div>
           <img
             alt="Me"
             class="image"
-            src="portrait.png"
+            src="me.jpeg"
           />
         </div>
         <div
@@ -1890,6 +1871,7 @@ Object {
           </div>
         </div>
         <div
+          class="Project"
           id="projects"
         >
           <h2>
