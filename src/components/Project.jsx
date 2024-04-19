@@ -19,7 +19,7 @@ export default function Project() {
 	});
 
 	return (
-		<div id="projects">
+		<div id="projects" className={styles.Project}>
 			<h2>PROJECTS</h2>
 			<div className={styles.projectCards}>
 				{projectCards}

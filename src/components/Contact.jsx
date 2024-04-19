@@ -21,7 +21,7 @@ export default function Header() {
 						href="./Anthony_Achit-Erdene_Resume.pdf" 
 						download="Anthony_Achit-Erdene_Resume.pdf" 
 						data-testid="resumeDownload">
-            Download resume
+            Download resume button
 					</Button> */}
 				</div>
 				<div className={styles.icons}>

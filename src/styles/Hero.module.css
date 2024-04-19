@@ -1,4 +1,3 @@
-/* TODO: Photo is warped in some aspects */
 .Hero {
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +8,7 @@
     padding-bottom: 10%;
     padding-left: 5%;
     padding-right: 5%;
-    background-image: linear-gradient(white, rgb(194, 230, 252), white);
+    background-color: rgb(194, 230, 252);
 }
 h1 {
     margin: 0px;
@@ -20,35 +19,11 @@ h1 {
     justify-content: center;
     padding: 2em;
 }
-.firstName {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    animation-delay: 0.5s;
-}
-.firstNameLeft {
-    /* TODO: Add normal space and use pre-line etc */
-    /* padding-right: 1rem; */
-}
-.firstNameLeft, .firstNameLeft:hover, 
-.firstNameRight, .firstNameRight:hover {
-    transition-duration: 0.5s;
-}
 .brief {
     font-size: 1.2rem;
     opacity: 0.8;
 }
 .image {
-    /* flex: 4; */
-    width: 400px; 
+    width: 20vw; 
     height: auto;
-    /* height: 400px; */
-    /* min-width: 300px;
-    max-width: 900px; */
-    border-radius: 20%;
-    transition-duration: 0.5s;
-}
-.image:hover {
-    border-radius: 10%;
-    transition-duration: 0.5s;
 }
