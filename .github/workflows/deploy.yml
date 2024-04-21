@@ -1,17 +1,18 @@
-name: Node.js CI
+name: Node.js CD
 
 on: 
-  pull_request:
+  push:
     branches: [main]
 
-jobs: 
-  test_pr: 
+jobs:
+  deploy:
     runs-on: macos-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: latest
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - run: npm deploy
